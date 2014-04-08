@@ -3,11 +3,13 @@ layout: default
 title: Russell Goldenberg
 ---
 
-<div id="home">
-  <h1>Russell Goldenberg</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+	<h1>Russell Goldenberg</h1>
+	<div class='posts'>
+    	{% for post in site.posts %}
+      	<div class='post'>
+      		<h3><span>{{ post.date | date: "%B %Y" }}</span>{{post.title}}</h3>
+      		<p>{{ post.text }}</p>
+      		<p><img src={{ site.url }}/img/{{post.img}}></p>
+      	</div>
+    	{% endfor %}
+  	</div>
