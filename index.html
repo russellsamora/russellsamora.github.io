@@ -4,20 +4,23 @@ title: Russell Goldenberg
 ---
 
 <section class='projects'>
-	<!-- {% for post in site.posts %}
+	{% for post in site.posts %}
 	<article>
-		<h6>{{ post.date | date: '%B %-d, %Y' }}</h6>
+		<!-- <h6>{{ post.date | date: '%B %-d, %Y' }}</h6> -->
 		<h3>
-			<a href="{{post.link}}">{{post.title}}</a>
+			<a target='_blank' href="{{post.link}}">{{post.title}}</a>
 		</h3>
-		<div class="images">
+		<p class='postText'>
+			{{post.text}}
+		</p>
+		<!-- <div class="images">
 			<a href="{{post.link}}">
 				<img class="iphone lazy" src="assets/img/blank.gif" data-src="{{post.smallImage}}" />
 			</a>
 			<a href="{{post.link}}">
 				<img class="ipad lazy" src="assets/img/blank.gif" data-src="{{post.largeImage}}" />
 			</a>
-		</div>
+		</div> -->
 	</article>
-	{% endfor %} -->
+	{% endfor %}
 </section>
