@@ -289,7 +289,7 @@
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0 1em; }
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .row                                        { margin-bottom: 20px; }
@@ -521,13 +521,22 @@
 /* #Site Styles
 ================================================== */
 p, h1,h2,h3,h4,a {
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  color: #666;
+}
+
+h1 {
+  font-weight: 700;
 }
 
 .post h3 span {
   font-size: 0.7em;
   margin-right: 1em;
   color: #999;
+}
+
+footer p {
+  text-align: center;
 }
 
 /* #Media Queries

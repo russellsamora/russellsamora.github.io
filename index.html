@@ -3,13 +3,21 @@ layout: default
 title: Russell Goldenberg
 ---
 
-	<h1>Russell Goldenberg</h1>
-	<div class='posts'>
-    	{% for post in site.posts %}
-      	<div class='post'>
-      		<h3><span>{{ post.date | date: "%B %Y" }}</span>{{post.title}}</h3>
-      		<p>{{ post.text }}</p>
-      		<p><img src={{ site.url }}/img/{{post.img}}></p>
-      	</div>
-    	{% endfor %}
-  	</div>
+<h1>Russell Goldenberg</h1>
+<div class='posts'>
+	{% for post in site.posts %}
+	<div class='post'>
+		<p class='date'>{{ post.date | date: "%B %Y" }}</p>
+		<h3>{{post.title}}</h3>
+		<p>{{ post.text }}</p>
+		{% if post.image %}
+			<p><img src={{ site.url }}/img/{{post.img}}></p>
+		{% endif %}
+		<video controls>
+			<source src='video/conversations.mp4' type='video/ogg'>
+			<source src='video/conversations.webm' type='video/webm'>
+			Your browser does not support the <code>video</code> element.
+		</video>
+	</div>
+	{% endfor %}
+</div>
