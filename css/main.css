@@ -528,6 +528,9 @@ a, a:visited {
   color: #9B1518;
   text-decoration: none;
 }
+a:hover {
+  color: #680204;
+}
 
 h1 {
   font-weight: 700;
@@ -593,10 +596,12 @@ video {
 .experience a {
   padding: 0 1em 0 0;
 }
+
 a.vid {
   border-left: 1px solid #9B1518;
   padding-left: 1em;
 }
+
 
 /* #Media Queries
 ================================================== */
