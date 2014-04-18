@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class='info'>
+	{% if page.video %}
+		<video controls>
+			<source src='/videos/{{page.video}}.mp4' type='video/mp4'>
+			<source src='/videos/{{page.video}}.webm' type='video/webm'>
+			Your browser does not support the <code>video</code> element.
+		</video>
+	{% endif %}	 
+</div>

@@ -522,21 +522,72 @@
 ================================================== */
 p, h1,h2,h3,h4,a {
   font-family: 'PT Sans', Helvetica, sans-serif;
-  color: #666;
+  color: #444;
+}
+a, a:visited {
+  color: #9B1518;
+  text-decoration: none;
 }
 
 h1 {
   font-weight: 700;
 }
 
-.post h3 span {
-  font-size: 0.7em;
-  margin-right: 1em;
-  color: #999;
-}
 
 footer p {
   text-align: center;
+}
+
+.nombre {
+  margin: 0.5em 0 0 0;
+}
+.nombre a {
+  text-decoration: none;
+  color: #444;
+}
+.subtitle {
+  font-size: 16px;
+  color: #9B1518;
+}
+
+.posts {
+  max-width: 640px;
+  margin: 2em auto;
+}
+
+.post {
+  margin: 1em 0;
+  padding: 2em 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.info {
+  text-align: center;
+  margin: 1em 0;
+  padding: 2em 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+p.date {
+  margin: 0;
+}
+
+.postTitle {
+  font-weight: 700;
+}
+
+video {
+  width: 100%;
+  max-width: 720px;
+  border: 1px solid #ccc;
+}
+
+.experience a {
+  padding: 0 1em 0 0;
+}
+a.vid {
+  border-left: 1px solid #9B1518;
+  padding-left: 1em;
 }
 
 /* #Media Queries
