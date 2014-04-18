@@ -587,10 +587,14 @@ p.date {
   font-weight: 700;
 }
 
+.info {
+  margin-top: 2em;
+  padding: 1.5em 1em 1em 1em;
+  background: #efefef;
+}
 video {
   width: 100%;
   max-width: 720px;
-  border: 1px solid #ccc;
 }
 
 a.story {
