@@ -545,9 +545,9 @@ footer p {
   text-decoration: none;
   color: #444;
 }
+
 .subtitle {
-  font-size: 16px;
-  color: #9B1518;
+  font-size: 1.2em;
 }
 
 .posts {
@@ -555,10 +555,18 @@ footer p {
   margin: 2em auto;
 }
 
+.postTitle {
+  margin-bottom: 0.5em;
+}
+
 .post {
   margin: 1em 0;
   padding: 2em 0;
   border-bottom: 1px dashed #ccc;
+}
+
+.post p {
+  margin: 0 0 0.25em 0;
 }
 
 .info {
@@ -606,4 +614,20 @@ a.vid {
   @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+  @media only screen and (max-width: 479px) {
+    .nombre {
+      font-size: 2.3em;
+    }
+    .subtitle {
+      font-size: 0.9em;
+    }
+    .posts {
+      margin-top: 0;
+    }
+    .post {
+      padding: 0.5em 0;
+    }
+    .postTitle {
+      font-size: 1.5em;
+    }
+  }
