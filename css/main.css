@@ -593,8 +593,9 @@ video {
   border: 1px solid #ccc;
 }
 
-.experience a {
-  padding: 0 1em 0 0;
+a.story {
+  border-right: 1px solid #9B1518;
+  padding-right: 1em;
 }
 
 a.vid {
