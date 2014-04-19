@@ -28,8 +28,7 @@
 ================================================== */
   body {
     background: #fff;
-    font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #444;
+    color: #333;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
  }
@@ -104,7 +103,9 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
+p {
+  line-height: 1.2;
+}
 p, h1,h2,h3,h4,a {
   font-family: 'PT Sans', Helvetica, sans-serif;
   color: #333;
@@ -133,16 +134,21 @@ footer p {
   text-align: center;
 }
 
-.nombre {
+/*.nombre {
   margin: 0.5em 0 0 0;
 }
 .nombre a {
   text-decoration: none;
   color: #333;
-}
+}*/
 
 .subtitle {
+  margin-top: 1em;
   font-size: 1.2em;
+}
+
+.subtitle span {
+  font-weight: 700;
 }
 
 .posts {
@@ -201,14 +207,6 @@ a.vid {
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
-    .nombre {
-      margin-top: 0;
-      font-size: 2.3em;
-    }
-    .subtitle {
-      font-size: 0.9em;
-      line-height: 1;
-    }
     .posts {
       margin-top: 0;
     }
