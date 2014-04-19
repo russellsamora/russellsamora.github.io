@@ -207,6 +207,9 @@ a.vid {
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
+    .subtitle {
+      margin-top: 0;
+    }
     .posts {
       margin-top: 0;
     }
