@@ -1,4 +1,2 @@
 #portfolio
-
-##TODO
-add webm vids
+http://russellgoldenberg.com
