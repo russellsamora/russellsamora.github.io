@@ -180,7 +180,7 @@ p.date {
 .info {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  margin: 2em 0 1em 0;
+  margin: 2em 0;
   padding: .25em;
   text-align: center;
   background: #333;
@@ -221,6 +221,12 @@ a.vid {
 
 .mobile-video {
   margin: 1em 0;
+}
+
+.mobile-video p {
+  text-align: center;
+  margin: 0.5em 0;
+  text-transform: uppercase;
 }
 
 .mobile-video video {
