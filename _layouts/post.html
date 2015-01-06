@@ -8,6 +8,13 @@ layout: default
 			{{page.vimeo}}
 		</div>
 	{% endif %} 
+  {% if page.mobile %}
+    <div class='mobile-video'>
+    <video controls>
+      <source src='/video/{{page.mobile}}.mp4'>
+      <source src='/video/{{page.mobile}}.webm'>
+    </video>
+  {% endif %}
 </div>
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js'></script>
 <script>

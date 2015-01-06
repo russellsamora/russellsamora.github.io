@@ -218,3 +218,14 @@ a.vid {
     }
   }
 
+
+.mobile-video {
+  margin: 1em 0;
+}
+
+.mobile-video video {
+  margin: 0 auto;
+  max-width: 100%;
+  border: 4px solid #000;
+  display: block;
+}
