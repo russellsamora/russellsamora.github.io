@@ -183,7 +183,7 @@ p.date {
   margin: 2em 0;
   padding: .25em;
   text-align: center;
-  background: #333;
+  background: #1a1a1a;
 }
 
 .experience a {
@@ -232,6 +232,6 @@ a.vid {
 .mobile-video video {
   margin: 0 auto;
   max-width: 100%;
-  border: 4px solid #000;
+  border: 4px solid #1a1a1a;
   display: block;
 }
