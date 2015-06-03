@@ -191,8 +191,7 @@ p.date {
   font-size: 0.8em;
 }
 a.story {
-  padding-right: 1em;
-  border-right: 1px solid #9B1518;
+  padding-right: 0.5em;
 }
 
 a.vid {
