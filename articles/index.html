@@ -6,7 +6,7 @@ layout: default
 	{% for post in site.posts %}
 	{% if post.layout == "article" %}
 		<article>
-			<p class='date'>{{ post.date | date: "%B %d %Y" }}</p>
+			<p class='date'>{{ post.date | date: "%B %d, %Y" }}</p>
 			{{post.content}}
 		</article>
 	{% endif %}
