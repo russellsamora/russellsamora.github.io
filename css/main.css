@@ -151,21 +151,21 @@ footer p {
   font-weight: 700;
 }
 
-.posts {
+.projects {
   margin: 2em auto;
 }
 
-.postTitle {
+.projectTitle {
   margin-bottom: 0.5em;
 }
 
-.post {
+.project {
   margin: 1em 0;
   padding: 2em 0 1em 0; 
   border-bottom: 1px dashed #ccc;
 }
 
-.post p {
+.project p {
   margin: 0 0 0.25em 0;
 }
 
@@ -173,7 +173,7 @@ p.date {
   margin: 0;
 }
 
-.postTitle {
+.projectTitle {
   font-weight: 700;
 }
 
@@ -206,13 +206,13 @@ a.vid {
     .subtitle {
       margin-top: 0;
     }
-    .posts {
+    .projects {
       margin-top: 0;
     }
-    .post {
+    .project {
       padding: 0.5em 0;
     }
-    .postTitle {
+    .projectTitle {
       font-size: 1.5em;
     }
   }
