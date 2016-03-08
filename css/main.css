@@ -96,14 +96,6 @@ footer p {
   text-align: center;
 }
 
-/*.nombre {
-  margin: 0.5em 0 0 0;
-}
-.nombre a {
-  text-decoration: none;
-  color: #333;
-}*/
-
 .subtitle {
   margin-top: 1em;
   font-size: 1.2em;
@@ -158,7 +150,7 @@ a.story {
 
 a.vid {
   padding-left: 1em;
-  border-left: 1px solid #9B1518;
+  border-left: 1px solid #ff0080;
 }
 
 .embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
