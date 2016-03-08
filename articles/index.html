@@ -5,5 +5,7 @@ layout: default
 <div class='articles'>
 	{% for post in site.posts %}
 	{% if post.layout == article %}
+		{{content}}
 	{% endif %}
+	{% endfor %}
 </div>
