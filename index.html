@@ -2,30 +2,32 @@
 layout: default
 ---
 
-<div class='projects'>
-	{% for project in site.projects %}
-	<div class='project'>
-		<p class='date'>{{ project.date | date: "%B %Y" }}</p>
-		<h3 class='projectTitle'>{{project.title}}</h3>
-		<p>{{ project.text }}</p>
-		{% if project.image %}
-			<p><img src={{site.url}}/img/{{project.img}}></p>
+<div class='posts'>
+	{% for post in site.posts %}
+	{% if post.story %}
+	<div class='post'>
+		<p class='date'>{{ post.date | date: "%B %Y" }}</p>
+		<h3 class='postTitle'>{{post.title}}</h3>
+		<p>{{ post.text }}</p>
+		{% if post.image %}
+			<p><img src={{ site.url }}/img/{{post.img}}></p>
 		{% endif %}
-		{% if project.image %}
+		{% if post.image %}
 			<div class='imageBox'>
 				
 			</div>
 		{% endif %}
 		<div class='experience'>
 			<p>
-			{% if project.story %}
-				<a class='story' target='_blank' href={{project.story}}>view story</a>
+			{% if post.story %}
+				<a class='story' target='_blank' href={{post.story}}>view story</a>
 			{% endif %}
-			{% if project.vimeo %}
-				<a  class='vid' href={{project.url}}>screen capture</a>
+			{% if post.vimeo %}
+				<a  class='vid' href={{post.url}}>screen capture</a>
 			{% endif %}
 			</p>
 		</div>
 	</div>
+	{% endif %}
 	{% endfor %}
 </div>
