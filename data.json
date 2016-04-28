@@ -54,12 +54,6 @@
 		"url": "http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
 	},
 	{
-		"id": "Brief",
-		"title": "Brief",
-		"description": "A brief look at new and trending stories from the Globe. Optimized for blazing fast mobile and poor connection performance.",
-		"url": "https://bostonglobe.github.io/brief"
-	},
-	{
 		"id": "pedro",
 		"title": "Pedro",
 		"description": "A story that looks at the career of Pedro Martinez through data and video.",
@@ -82,6 +76,12 @@
 		"title": "Remy timeline",
 		"description": "An interactive timeline that examines nearly 100 moments from the life and criminal history of Jared Remy.",
 		"url": "http://www.bostonglobe.com/2014/03/22/jared-remy-timeline/RnIJqOgNMk6tryVl1YjATN/story.html"
+	},
+	{
+		"id": "brief",
+		"title": "Brief",
+		"description": "A brief look at new and trending stories from the Globe. Optimized for blazing fast mobile and poor connection performance.",
+		"url": "https://bostonglobe.github.io/brief"
 	},
 	{
 		"id": "hollow",
