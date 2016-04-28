@@ -1,33 +1,337 @@
----
-layout: default
----
+<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>Russell Goldenberg</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta name='description' content='Russell Goldenberg portfolio of work'>
+		<meta name='author' content='Russell Goldenberg'>
+		<meta name='keywords' content='interactive developer, data journalism, creative coder, javascript, programming, html5, processing, canvas, d3js, data visualization, node, boston, cambridge, russell, goldenberg'>
+		<style>
+			/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('fonts/roboto-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/roboto-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
-<div class='posts'>
-	{% for post in site.posts %}
-	{% if post.layout == "post" %}
-	<div class='post'>
-		<p class='date'>{{ post.date | date: "%B %Y" }}</p>
-		<h3 class='postTitle'>{{post.title}}</h3>
-		<p class='description'>{{ post.text }}</p>
-		{% if post.image %}
-			<p><img src={{ site.url }}/img/{{post.img}}></p>
-		{% endif %}
-		{% if post.image %}
-			<div class='imageBox'>
-				
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('fonts/roboto-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/roboto-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Style */
+body {
+	background: #fff;
+	color: #454545;
+	font-size: 17px;
+	line-height: 1.4;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+p { 
+	margin-bottom: 1em;
+}
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+
+img {
+	display: block;
+	width: 100%;
+}
+
+a, a:visited {
+	font-weight: 700;
+	text-decoration: none;
+	color: #181818;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #181818;
+}
+
+
+
+.intro {
+	max-width: 480px;
+}
+
+.intro-hed {
+	font-size: 1.35em;
+	margin-bottom: 1em;
+}
+
+.container {
+	width: 100%;
+	padding: 1em;
+	margin: 0 auto;
+}
+
+.projects {
+	height: 100%;
+	overflow: hidden;
+	max-width: 1620px;
+}
+
+.project {
+	padding: 1em 0;
+}
+
+.project-title {
+	display: none;
+}
+
+.project-description {
+	margin-top: 0.5em;
+}
+
+footer p {
+	text-align: center;
+}
+
+@media only screen and (min-width: 540px) {
+	.intro {
+		padding: 1em;
+	}
+	.project {
+		float: left;
+		width: 50%;
+		padding: 1em;
+	}
+	.project:nth-child(2n + 1) {
+		clear: both;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.project {
+		width: 33.3%;
+	}
+	.project:nth-child(2n + 1) {
+		clear: none;
+	}
+	.project:nth-child(3n + 1) {
+		clear: both;
+	}
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+		</style>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='intro'>
+				<h1 class='intro-hed'>
+					I’m <a href='http://russellgoldenberg.com'>Russell Goldenberg</a>. I create data visualizations, interactive graphics, and documentaries for the web.
+				</h1>
+				<p class='intro-dek'>
+					Here are some of my favorite things I have made at The Boston Globe as a visual journalist, and other freelance projects.
+				</p>
 			</div>
-		{% endif %}
-		<div class='experience'>
-			<p>
-			{% if post.story %}
-				<a class='story' target='_blank' href={{post.story}}>View story</a>
-			{% endif %}
-			{% if post.vimeo %}
-				<a  class='vid' href={{post.url}}>Screen capture</a>
-			{% endif %}
-			</p>
+			<div class='projects'>
+				
+		<div class='project'>
+			<div class='project-image'>
+				<a href='https://apps.bostonglobe.com/graphics/2016/04/arresting-words/'><img src='img/arresting-words.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='https://apps.bostonglobe.com/graphics/2016/04/arresting-words/'>Arresting words</a> A look what people say when they get arrested in Boston.</p>
+			
 		</div>
-	</div>
-	{% endif %}
-	{% endfor %}
-</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='https://apps.bostonglobe.com/graphics/2016/02/political-ads/'><img src='img/political-analysis.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='https://apps.bostonglobe.com/graphics/2016/02/political-ads/'>A TV viewer’s guide to campaign ads</a> A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails'><img src='img/clash-emails.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails'>Clash in the name of care: The e-mails</a> Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story'><img src='img/clash.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story'>Clash in the name of care</a> A Spotlight investigation about concurrent surgery practices at MGH.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://www.bostonglobe.com/2015/08/09/how-liberal-massachusetts/5Ryp0CxUBidusnB8TY8fbM/story.html'><img src='img/liberal.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://www.bostonglobe.com/2015/08/09/how-liberal-massachusetts/5Ryp0CxUBidusnB8TY8fbM/story.html'>How liberal is Massachusetts?</a> Scrollytelling graphic that compares Massachusetts legislature to the rest of the country.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://www.bostonglobe.com/business/2015/08/07/adds-jobs-july-unemployment-rate-unchanged/ZNMBBnc5nOZpzINGSl4NmL/story.html'><img src='img/unemployment.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://www.bostonglobe.com/business/2015/08/07/adds-jobs-july-unemployment-rate-unchanged/ZNMBBnc5nOZpzINGSl4NmL/story.html'>Unemployment chart</a> Time series chart depicting the unemployment rates in US and Mass.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='https://apps.bostonglobe.com/graphics/2015/06/challah/'><img src='img/challah.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='https://apps.bostonglobe.com/graphics/2015/06/challah/'>The staff of life and love</a> A multimedia story about a 90 year-old man who makes challah for his sons every week.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://www.bostonglobe.com/sports/2015/06/03/close-games-how-often-nba-referees-get-right/KbpT1kG3Sp5ywtUqY4cCbN/story.html'><img src='img/referees.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://www.bostonglobe.com/sports/2015/06/03/close-games-how-often-nba-referees-get-right/KbpT1kG3Sp5ywtUqY4cCbN/story.html'>In close games, how often do NBA referees get it right?</a> A data analysis of NBA referee decisions in close games.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html'><img src='img/myanmar.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html'>Journey to Myanmar</a> A visual travel essay combining photo, video, and audio explores the regions of Myanmar.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='https://bostonglobe.github.io/brief'><img src='img/Brief.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='https://bostonglobe.github.io/brief'>Brief</a> A brief look at new and trending stories from the Globe. Optimized for blazing fast mobile and poor connection performance.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://www.bostonglobe.com/sports/2015/01/06/boston-loved-pedro-martinez-and-feeling-was-mutual/wQrQBlhtz4x4sxemRqlUJN/story.html'><img src='img/pedro.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://www.bostonglobe.com/sports/2015/01/06/boston-loved-pedro-martinez-and-feeling-was-mutual/wQrQBlhtz4x4sxemRqlUJN/story.html'>Pedro</a> A story that looks at the career of Pedro Martinez through data and video.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://www.bostonglobe.com/2014/11/05/where-baker-did-better-than/tO12LO9JNCTrU4m116usqK/story.html'><img src='img/baker.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://www.bostonglobe.com/2014/11/05/where-baker-did-better-than/tO12LO9JNCTrU4m116usqK/story.html'>Where Baker did better than in 2010</a> A visualization of the shift in results for the gubernational election in 2014.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://bostonglobe.com/metro/2014/10/25/chasing-bayla/tJuazyjBOsdKQTRVnAbh7K/story.html'><img src='img/chasing-bayla.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://bostonglobe.com/metro/2014/10/25/chasing-bayla/tJuazyjBOsdKQTRVnAbh7K/story.html'>Chasing Bayla</a> A story told in parallel (text and visuals) about one man's attempt to save a whale.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://www.bostonglobe.com/2014/03/22/jared-remy-timeline/RnIJqOgNMk6tryVl1YjATN/story.html'><img src='img/remy.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://www.bostonglobe.com/2014/03/22/jared-remy-timeline/RnIJqOgNMk6tryVl1YjATN/story.html'>Remy timeline</a> An interactive timeline that examines nearly 100 moments from the life and criminal history of Jared Remy.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://hollowdocumentary.com'><img src='img/hollow.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://hollowdocumentary.com'>Hollow</a> An interactive documentary exploring the decline of rural America.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project-image'>
+				<a href='http://goodlucksoup.com'><img src='img/goodlucksoup.jpg' /></a>
+			</div>
+			<p class='project-description'><a href='http://goodlucksoup.com'>Good luck soup</a> An interactive documentary about life before, during, and after Japanese internment camps.</p>
+			
+		</div>
+	
+			</div>
+			<footer>
+				<p><a href='http://russellgoldenberg.com/'>Some more about me.</a></p>
+			</footer>
+		</div>
+	</body>
+</html>

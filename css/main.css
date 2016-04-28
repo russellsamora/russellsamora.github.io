@@ -1,191 +1,162 @@
-/* #Reset & Basics (Inspired by E. Meyers)
-================================================== */
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline; }
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block; }
-  body {
-    line-height: 1; }
-  ol, ul {
-    list-style: none; }
-  blockquote, q {
-    quotes: none; }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-    content: '';
-    content: none; }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0; }
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('fonts/roboto-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/roboto-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('fonts/roboto-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/roboto-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Style */
+body {
+	background: #fff;
+	color: #454545;
+	font-size: 17px;
+	line-height: 1.4;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+p { 
+	margin-bottom: 1em;
+}
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+
+img {
+	display: block;
+	width: 100%;
+}
+
+a, a:visited {
+	font-weight: 700;
+	text-decoration: none;
+	color: #181818;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #181818;
+}
 
 
-/* #Basic Styles
-================================================== */
-  body {
-    background: #fff;
-    color: #333;
-    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-    -webkit-text-size-adjust: 100%;
- }
 
+.intro {
+	max-width: 480px;
+}
 
-/* #Typography
-================================================== */
-  h1, h2, h3, h4, h5, h6 {
-    color: #181818;
-    font-family: "Georgia", "Times New Roman", serif;
-    font-weight: normal; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-  h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-  h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-  h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-  h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-  h5 { font-size: 17px; line-height: 24px; }
-  h6 { font-size: 14px; line-height: 21px; }
-
-  p { margin: 0 0 20px 0; }
-  p img { margin: 0; }
-
-  em { font-style: italic; }
-  strong { font-weight: bold; color: #333; }
-  small { font-size: 80%; }
-
-
-/*russell*/
+.intro-hed {
+	font-size: 1.35em;
+	margin-bottom: 1em;
+}
 
 .container {
-  max-width: 640px;
-  width: 100%;
-  padding: 1em;
-  margin: 0 auto;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-p {
-  line-height: 1.2;
-  font-size: 1.1em;
-}
-p, h1,h2,h3,h4,a {
-  color: #333;
-}
-a, a:visited {
-  color: #ff0080;
-}
-a:hover {
-  color: #ff0080;
+	width: 100%;
+	padding: 1em;
+	margin: 0 auto;
 }
 
-h1 {
-  font-weight: 700;
+.projects {
+	height: 100%;
+	overflow: hidden;
+	max-width: 1620px;
 }
 
-.links p {
-  text-align: center;
+.project {
+	padding: 1em 0;
 }
 
-/*.links a {
-  text-transform: uppercase;
-}*/
+.project-title {
+	display: none;
+}
+
+.project-description {
+	margin-top: 0.5em;
+}
 
 footer p {
-  text-align: center;
+	text-align: center;
 }
 
-.subtitle {
-  margin-top: 1em;
-  font-size: 1.2em;
+@media only screen and (min-width: 540px) {
+	.intro {
+		padding: 1em;
+	}
+	.project {
+		float: left;
+		width: 50%;
+		padding: 1em;
+	}
+	.project:nth-child(2n + 1) {
+		clear: both;
+	}
 }
 
-.subtitle span {
-  font-weight: 700;
-}
-
-.posts {
-  margin: 2em auto;
-}
-
-.postTitle {
-  margin-bottom: 0.5em;
-}
-
-.post {
-  margin: 1em 0;
-  padding: 2em 0 1em 0; 
-  border-bottom: 1px dashed #ccc;
-}
-
-.post p {
-  margin: 0 0 0.25em 0;
-}
-
-p.date {
-  margin: 0;
-  color: #888;
-}
-
-.info {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  margin: 2em 0;
-  padding: .25em;
-  text-align: center;
-  background: #1a1a1a;
-}
-
-.description {
-  margin-bottom: 0.5em;
-  font-size: 1.1em;
-}
-
-.experience a {
-  font-size: 0.9em;
-}
-a.story {
-  padding-right: 0.5em;
-}
-
-a.vid {
-  padding-left: 1em;
-  border-left: 1px solid #ff0080;
+@media only screen and (min-width: 960px) {
+	.project {
+		width: 33.3%;
+	}
+	.project:nth-child(2n + 1) {
+		clear: none;
+	}
+	.project:nth-child(3n + 1) {
+		clear: both;
+	}
 }
 
 .embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {
-    .subtitle {
-      margin-top: 0;
-    }
-    .posts {
-      margin-top: 0;
-    }
-    .post {
-      padding: 0.5em 0;
-    }
-    .postTitle {
-      font-size: 1.5em;
-    }
-  }
-
-
-.mobile-video {
-  margin: 4em 0 2em 0;
-}
-
-.mobile-video p {
-  text-align: center;
-  margin: 0.5em 0;
-  text-transform: uppercase;
-}
-
-.mobile-video video {
-  margin: 0 auto;
-  max-width: 100%;
-  border: 4px solid #1a1a1a;
-  display: block;
-}

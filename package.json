@@ -1,0 +1,19 @@
+{
+  "name": "russellgoldenberg_github",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellgoldenberg/russellgoldenberg.github.io.git"
+  },
+  "author": "Russell Goldenberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/russellgoldenberg/russellgoldenberg.github.io/issues"
+  },
+  "homepage": "https://github.com/russellgoldenberg/russellgoldenberg.github.io#readme"
+}

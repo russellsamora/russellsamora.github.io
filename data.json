@@ -1,0 +1,98 @@
+[
+	{
+		"id": "arresting-words",
+		"title": "Arresting words",
+		"description": "A look what people say when they get arrested in Boston.",
+		"url": "https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
+	},
+	{
+		"id": "political-analysis",
+		"title": "A TV viewer’s guide to campaign ads",
+		"description": "A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.",
+		"url": "https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
+	},
+	{
+		"id": "clash-emails",
+		"title": "Clash in the name of care: The e-mails",
+		"description": "Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.",
+		"url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
+	},
+	{
+		"id": "clash",
+		"title": "Clash in the name of care",
+		"description": "A Spotlight investigation about concurrent surgery practices at MGH.",
+		"url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
+	},
+	{
+		"id": "liberal",
+		"title": "How liberal is Massachusetts?",
+		"description": "Scrollytelling graphic that compares Massachusetts legislature to the rest of the country.",
+		"url": "http://www.bostonglobe.com/2015/08/09/how-liberal-massachusetts/5Ryp0CxUBidusnB8TY8fbM/story.html"
+	},
+	{
+		"id": "unemployment",
+		"title": "Unemployment chart",
+		"description": "Time series chart depicting the unemployment rates in US and Mass.",
+		"url": "http://www.bostonglobe.com/business/2015/08/07/adds-jobs-july-unemployment-rate-unchanged/ZNMBBnc5nOZpzINGSl4NmL/story.html"
+	},
+	{
+		"id": "challah",
+		"title": "The staff of life and love",
+		"description": "A multimedia story about a 90 year-old man who makes challah for his sons every week.",
+		"url": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
+	},
+	{
+		"id": "referees",
+		"title": "In close games, how often do NBA referees get it right?",
+		"description": "A data analysis of NBA referee decisions in close games.",
+		"url": "http://www.bostonglobe.com/sports/2015/06/03/close-games-how-often-nba-referees-get-right/KbpT1kG3Sp5ywtUqY4cCbN/story.html"
+	},
+	{
+		"id": "myanmar",
+		"title": "Journey to Myanmar",
+		"description": "A visual travel essay combining photo, video, and audio explores the regions of Myanmar.",
+		"url": "http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
+	},
+	{
+		"id": "Brief",
+		"title": "Brief",
+		"description": "A brief look at new and trending stories from the Globe. Optimized for blazing fast mobile and poor connection performance.",
+		"url": "https://bostonglobe.github.io/brief"
+	},
+	{
+		"id": "pedro",
+		"title": "Pedro",
+		"description": "A story that looks at the career of Pedro Martinez through data and video.",
+		"url": "http://www.bostonglobe.com/sports/2015/01/06/boston-loved-pedro-martinez-and-feeling-was-mutual/wQrQBlhtz4x4sxemRqlUJN/story.html"
+	},
+	{
+		"id": "baker",
+		"title": "Where Baker did better than in 2010",
+		"description": "A visualization of the shift in results for the gubernational election in 2014.",
+		"url": "http://www.bostonglobe.com/2014/11/05/where-baker-did-better-than/tO12LO9JNCTrU4m116usqK/story.html"
+	},
+	{
+		"id": "chasing-bayla",
+		"title": "Chasing Bayla",
+		"description": "A story told in parallel (text and visuals) about one man's attempt to save a whale.",
+		"url": "http://bostonglobe.com/metro/2014/10/25/chasing-bayla/tJuazyjBOsdKQTRVnAbh7K/story.html"
+	},
+	{
+		"id": "remy",
+		"title": "Remy timeline",
+		"description": "An interactive timeline that examines nearly 100 moments from the life and criminal history of Jared Remy.",
+		"url": "http://www.bostonglobe.com/2014/03/22/jared-remy-timeline/RnIJqOgNMk6tryVl1YjATN/story.html"
+	},
+	{
+		"id": "hollow",
+		"title": "Hollow",
+		"description": "An interactive documentary exploring the decline of rural America.",
+		"url": "http://hollowdocumentary.com"
+	},
+	{
+		"id": "goodlucksoup",
+		"title": "Good luck soup",
+		"description": "An interactive documentary about life before, during, and after Japanese internment camps.",
+		"url": "http://goodlucksoup.com"
+	}	
+]

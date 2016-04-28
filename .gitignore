@@ -1,3 +1,2 @@
-_site
-screenshots
-raw_videos
+.DS_Store
+node_modules
