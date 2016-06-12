@@ -2,17 +2,26 @@ const fs = require('fs')
 const data = JSON.parse(fs.readFileSync('./data.json'))
 
 const videoHTML = video =>
-	video ? `<div class='project-video'><a href='#${id}'>*</a></div>` : ''
+	video ? `<div class='project__video'><a href='#${id}'>*</a></div>` : ''
 
-const projects = data.map(d => {
+const projects = data.projects.map(d => {
 	const { id, title, description, url, video } = d
 	return `
 		<div class='project'>
-			<div class='project-image'>
+			<div class='project__image'>
 				<a href='${url}'><img src='img/${id}.jpg' /></a>
 			</div>
-			<p class='project-description'><a href='${url}'>${title}</a> ${description}</p>
+			<p class='project__description'><a href='${url}'>${title}</a> ${description}</p>
 			${videoHTML(video)}
+		</div>
+	`
+}).join('\n')
+
+const openSource = data.openSource.map(d => {
+	const { id, title, description, url } = d
+	return `
+		<div class='open-source'>
+			<p class='open-source__description'><a href='${url}'>${title}</a> ${description}</p>
 		</div>
 	`
 }).join('\n')
@@ -20,7 +29,9 @@ const projects = data.map(d => {
 const template = fs.readFileSync('index.template', 'utf8')
 const style = fs.readFileSync('css/main.css', 'utf8')
 
-const indexWithProjects = template.replace('<!-- projects -->', projects)
-const indexWithStyle = indexWithProjects.replace('/* style */', style)
+const html = template
+	.replace('<!-- projects -->', projects)
+	.replace('<!-- open-source -->', openSource)
+	.replace('/* style */', style)
 
-fs.writeFileSync('index.html', indexWithStyle)
+fs.writeFileSync('index.html', html)

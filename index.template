@@ -24,6 +24,12 @@
 			<div class='projects'>
 				<!-- projects -->
 			</div>
+			<p class='intro-dek'>
+				A collection of Open Source libraries and tools I have created.
+			</p>
+			<div class='open-sources'>
+				<!-- open-source -->
+			</div>
 			<footer>
 				<p><a href='http://russellgoldenberg.com/'>Some more about me.</a></p>
 			</footer>
