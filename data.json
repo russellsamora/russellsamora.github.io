@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "make-it-stop",
+			"title": "Make it stop.",
+			"description": "Editorial on gun violence since the assault weapons ban expired in 2004.",
+			"url": "https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
+		},
+		{
 			"id": "college-debt",
 			"title": "The college debt crisis is even worse than you think",
 			"description": "We tell students they need a bachelor’s degree to get ahead. But for too many, the numbers no longer add up.",
