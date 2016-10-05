@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "redrafted",
+			"title": "Twenty years of the NBA redrafted",
+			"description": "Using career stats to prove the best/worst NBA draft picks, ever.",
+			"url": "http://polygraph.cool/redraft"
+		},
+		{
 			"id": "make-it-stop",
 			"title": "Make it stop.",
 			"description": "Editorial on gun violence since the assault weapons ban expired in 2004.",
