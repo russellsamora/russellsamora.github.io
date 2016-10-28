@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "elections",
+			"title": "How news media covers Trump & Clinton",
+			"description": "Analyzing 12,147 images of the candidates.",
+			"url": "http://polygraph.cool/elections"
+		},
+		{
 			"id": "redrafted",
 			"title": "Twenty years of the NBA redrafted",
 			"description": "Using career stats to prove the best/worst NBA draft picks, ever.",
