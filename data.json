@@ -1,5 +1,11 @@
 {
 	"projects": [
+		{	
+			"id": "making-it-big",
+			"title": "The unlikely odds of making it big",
+			"description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
+			"url": "https://pudding.cool/2017/01/making-it-big/"
+		},
 		{
 			"id": "elections",
 			"title": "How news media covers Trump & Clinton",
