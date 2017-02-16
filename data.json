@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{	
+			"id": "two-minute-report",
+			"title": "NBA last two minute report",
+			"description": "A review of the NBA officiating from the Last Two Minute Report",
+			"url": "https://pudding.cool/2017/02/two-minute-report/"
+		},
+		{	
 			"id": "making-it-big",
 			"title": "The unlikely odds of making it big",
 			"description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
@@ -77,12 +83,6 @@
 			"title": "The staff of life and love",
 			"description": "A multimedia story about a 90 year-old man who makes challah for his sons every week.",
 			"url": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
-		},
-		{
-			"id": "referees",
-			"title": "In close games, how often do NBA referees get it right?",
-			"description": "A data analysis of NBA referee decisions in close games.",
-			"url": "http://www.bostonglobe.com/sports/2015/06/03/close-games-how-often-nba-referees-get-right/KbpT1kG3Sp5ywtUqY4cCbN/story.html"
 		},
 		{
 			"id": "myanmar",
@@ -163,12 +163,6 @@
 			"title": "NBA shot zones",
 			"description": "Compute shot zones from x,y coordindates.",
 			"url": "https://github.com/BostonGlobe/nba-shot-zones"
-		},
-		{
-			"id": "social-image-imaker",
-			"title": "Social imager maker",
-			"description": "Generate sharable images with quotes in a jiffy.",
-			"url": "https://github.com/BostonGlobe/social-image-maker"
 		},
 		{
 			"id": "geolocation-simulator",
