@@ -9,7 +9,7 @@ const projects = data.projects.map(d => {
 	return `
 		<div class='project'>
 			<div class='project__image'>
-				<a href='${url}'><img src='img/${id}.jpg' /></a>
+				<a target='_blank' href='${url}'><img src='img/${id}.jpg' /></a>
 			</div>
 			<p class='project__description'><a href='${url}'>${title}</a> ${description}</p>
 			${videoHTML(video)}
