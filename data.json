@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{	
+			"id": "oscars",
+			"title": "Mapping America’s Taste in Oscar Films",
+			"description": "Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.",
+			"url": "https://googletrends.github.io/google_oscars/"
+		},
+		{	
 			"id": "two-minute-report",
 			"title": "NBA last two minute report",
 			"description": "An on-going project that reviews officiating from the NBA Last Two Minute Report.",
