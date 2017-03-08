@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{	
+			"id": "westbrook",
+			"title": "How Russell Westbrook can Average a Triple-Double",
+			"description": "As of March 8, Russell Westbrook is averaging a triple-double for the entire season.",
+			"url": "https://pudding.cool/2017/03/westbrook/"
+		},
+		{	
 			"id": "oscars",
 			"title": "Mapping America’s Taste in Oscar Films",
 			"description": "Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.",
