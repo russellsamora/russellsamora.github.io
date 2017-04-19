@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{	
+			"id": "beer",
+			"title": "What city is the microbrew capital of the US?",
+			"description": "Using beer review data to rank the best cities in the country.",
+			"url": "https://pudding.cool/2017/04/beer/"
+		},
+		{	
 			"id": "westbrook",
 			"title": "How Russell Westbrook can Average a Triple-Double",
 			"description": "As of March 8, Russell Westbrook is averaging a triple-double for the entire season.",
