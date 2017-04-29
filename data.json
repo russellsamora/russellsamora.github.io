@@ -34,13 +34,13 @@
 			"id": "elections",
 			"title": "How news media covers Trump & Clinton",
 			"description": "Analyzing 12,147 images of the candidates.",
-			"url": "http://polygraph.cool/elections"
+			"url": "https://pudding.cool/2017/03/elections"
 		},
 		{
 			"id": "redrafted",
 			"title": "Twenty years of the NBA redrafted",
 			"description": "Using career stats to prove the best/worst NBA draft picks, ever.",
-			"url": "http://polygraph.cool/redraft"
+			"url": "https://pudding.cool/2017/03/redraft"
 		},
 		{
 			"id": "make-it-stop",
