@@ -1,8 +1,14 @@
 {
 	"projects": [
 		{	
+			"id": "atlantic",
+			"title": "The Platinum Patients",
+			"description": "Each year, 1 in every 20 Americans racks up just as much in medical bills as the other 19 combined.",
+			"url": "https://www.theatlantic.com/theplatinumpatients/"
+		},
+		{	
 			"id": "beer",
-			"title": "What city is the microbrew capital of the US?",
+			"title": "What City is the Microbrew Capital of the US?",
 			"description": "Using beer review data to rank the best cities in the country.",
 			"url": "https://pudding.cool/2017/04/beer/"
 		},
@@ -20,25 +26,25 @@
 		},
 		{	
 			"id": "two-minute-report",
-			"title": "NBA last two minute report",
+			"title": "NBA Last Two Minute Report",
 			"description": "An on-going project that reviews officiating from the NBA Last Two Minute Report.",
 			"url": "https://pudding.cool/2017/02/two-minute-report/"
 		},
 		{	
 			"id": "making-it-big",
-			"title": "The unlikely odds of making it big",
+			"title": "The Unlikely Odds of Making it Big",
 			"description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
 			"url": "https://pudding.cool/2017/01/making-it-big/"
 		},
 		{
 			"id": "elections",
-			"title": "How news media covers Trump & Clinton",
+			"title": "How News Media Covers Trump & Clinton",
 			"description": "Analyzing 12,147 images of the candidates.",
 			"url": "https://pudding.cool/2017/03/elections"
 		},
 		{
 			"id": "redrafted",
-			"title": "Twenty years of the NBA redrafted",
+			"title": "Twenty Years of the NBA Redrafted",
 			"description": "Using career stats to prove the best/worst NBA draft picks, ever.",
 			"url": "https://pudding.cool/2017/03/redraft"
 		},
