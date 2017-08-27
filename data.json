@@ -1,150 +1,168 @@
 {
-	"projects": [
-		{	
-			"id": "atlantic",
-			"title": "The Platinum Patients",
-			"description": "Each year, 1 in every 20 Americans racks up just as much in medical bills as the other 19 combined.",
-			"url": "https://www.theatlantic.com/theplatinumpatients/"
-		},
-		{	
-			"id": "beer",
-			"title": "What City is the Microbrew Capital of the US?",
-			"description": "Using beer review data to rank the best cities in the country.",
-			"url": "https://pudding.cool/2017/04/beer/"
-		},
-		{	
-			"id": "westbrook",
-			"title": "How Russell Westbrook can Average a Triple-Double",
-			"description": "As of March 8, Russell Westbrook is averaging a triple-double for the entire season.",
-			"url": "https://pudding.cool/2017/03/westbrook/"
-		},
-		{	
-			"id": "oscars",
-			"title": "Mapping America’s Taste in Oscar Films",
-			"description": "Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.",
-			"url": "https://googletrends.github.io/google_oscars/"
-		},
-		{	
-			"id": "two-minute-report",
-			"title": "NBA Last Two Minute Report",
-			"description": "An on-going project that reviews officiating from the NBA Last Two Minute Report.",
-			"url": "https://pudding.cool/2017/02/two-minute-report/"
-		},
-		{	
-			"id": "making-it-big",
-			"title": "The Unlikely Odds of Making it Big",
-			"description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
-			"url": "https://pudding.cool/2017/01/making-it-big/"
-		},
-		{
-			"id": "elections",
-			"title": "How News Media Covers Trump & Clinton",
-			"description": "Analyzing 12,147 images of the candidates.",
-			"url": "https://pudding.cool/2017/03/elections"
-		},
-		{
-			"id": "redrafted",
-			"title": "Twenty Years of the NBA Redrafted",
-			"description": "Using career stats to prove the best/worst NBA draft picks, ever.",
-			"url": "https://pudding.cool/2017/03/redraft"
-		},
-		{
-			"id": "make-it-stop",
-			"title": "Make it stop.",
-			"description": "Editorial on gun violence since the assault weapons ban expired in 2004.",
-			"url": "https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
-		},
-		{
-			"id": "started-from-the-bottom",
-			"title": "Started from the bottom",
-			"description": "The various paths NBA franchises have taken to get from the bottom to the top of league.",
-			"url": "https://russellgoldenberg.github.io/started-from-the-bottom/"
-		},
-		{
-			"id": "arresting-words",
-			"title": "Arresting words",
-			"description": "A look what people say when they get arrested in Boston.",
-			"url": "https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
-		},
-		{
-			"id": "political-analysis",
-			"title": "A TV viewer’s guide to campaign ads",
-			"description": "A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.",
-			"url": "https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
-		},
-		{
-			"id": "clash-emails",
-			"title": "Clash in the name of care: The e-mails",
-			"description": "Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.",
-			"url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
-		},
-		{
-			"id": "clash",
-			"title": "Clash in the name of care",
-			"description": "A Spotlight investigation about concurrent surgery practices at MGH.",
-			"url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
-		},
-		{
-			"id": "challah",
-			"title": "The staff of life and love",
-			"description": "A multimedia story about a 90 year-old man who makes challah for his sons every week.",
-			"url": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
-		},
-		{
-			"id": "myanmar",
-			"title": "Journey to Myanmar",
-			"description": "A visual travel essay combining photo, video, and audio explores the regions of Myanmar.",
-			"url": "http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
-		},
-		{
-			"id": "hollow",
-			"title": "Hollow",
-			"description": "An interactive documentary exploring the decline of rural America.",
-			"url": "http://hollowdocumentary.com"
-		},
-		{
-			"id": "goodlucksoup",
-			"title": "Good luck soup",
-			"description": "An interactive documentary about life before, during, and after Japanese internment camps.",
-			"url": "http://goodlucksoup.com"
-		}
-	],
-	"openSource": [
-		{
-			"id": "responsive-table-generator",
-			"title": "Responsive table generator",
-			"description": "HTML/CSS only responsive table generator.",
-			"url": "https://russellgoldenberg.github.io/responsive-table-generator"
-		},
-		{
-			"id": "enter-view",
-			"title": "enter-view.js",
-			"description": "Dependency-free JavaScript library to detect when element enters into view.",
-			"url": "https://russellgoldenberg.github.io/enter=view"
-		},
-		{
-			"id": "skimmer",
-			"title": "skimmer.js",
-			"description": "Dependency-free JavaScript library to detect when a user is skimming the a page.",
-			"url": "https://russellgoldenberg.github.io/skimmer"
-		},
-		{
-			"id": "flipbook",
-			"title": "flipbook.js",
-			"description": "Scroll-based inline flipbook animation for the internet.",
-			"url": "https://russellgoldenberg.github.io/flipbook.js"
-		},
-		{
-			"id": "nba-shot-zones",
-			"title": "NBA shot zones",
-			"description": "Compute shot zones from x,y coordindates.",
-			"url": "https://github.com/BostonGlobe/nba-shot-zones"
-		},
-		{
-			"id": "geolocation-simulator",
-			"title": "Geolocation simulator",
-			"description": "An HTML5 geolocation simulator for desktops that want to pretend to be mobile.",
-			"url": "https://github.com/russellgoldenberg/geolocation-simulator"
-		}
-	]
+  "projects": [
+    {
+      "id": "film-direction",
+      "title": "She Giggles, He Gallops",
+      "description": "Analyzing gender tropes in film with screen direction from 2,000 scripts.",
+      "url": "https://pudding.cool/2017/08/screen-direction/"
+    },
+    {
+      "id": "the-office",
+      "title": "‘The Office’ Dialogue in Five Charts",
+      "description": "A breakdown of how every character contributed to the show.",
+      "url": "https://pudding.cool/2017/08/the-office/"
+    },
+    {
+      "id": "cetaceans",
+      "title": "Free Willy and Flipper by the Numbers",
+      "description": "The past, present, and future of captive whales and dolphins according to data and pop culture.",
+      "url": "https://pudding.cool/2017/07/cetaceans/"
+    },
+    {
+      "id": "atlantic",
+      "title": "The Platinum Patients",
+      "description": "Each year, 1 in every 20 Americans racks up just as much in medical bills as the other 19 combined.",
+      "url": "https://www.theatlantic.com/theplatinumpatients/"
+    },
+    {
+      "id": "beer",
+      "title": "What City is the Microbrew Capital of the US?",
+      "description": "Using beer review data to rank the best cities in the country.",
+      "url": "https://pudding.cool/2017/04/beer/"
+    },
+    {
+      "id": "westbrook",
+      "title": "How Russell Westbrook can Average a Triple-Double",
+      "description": "As of March 8, Russell Westbrook is averaging a triple-double for the entire season.",
+      "url": "https://pudding.cool/2017/03/westbrook/"
+    },
+    {
+      "id": "oscars",
+      "title": "Mapping America’s Taste in Oscar Films",
+      "description": "Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.",
+      "url": "https://googletrends.github.io/google_oscars/"
+    },
+    {
+      "id": "two-minute-report",
+      "title": "NBA Last Two Minute Report",
+      "description": "An on-going project that reviews officiating from the NBA Last Two Minute Report.",
+      "url": "https://pudding.cool/2017/02/two-minute-report/"
+    },
+    {
+      "id": "making-it-big",
+      "title": "The Unlikely Odds of Making it Big",
+      "description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
+      "url": "https://pudding.cool/2017/01/making-it-big/"
+    },
+    {
+      "id": "elections",
+      "title": "How News Media Covers Trump & Clinton",
+      "description": "Analyzing 12,147 images of the candidates.",
+      "url": "https://pudding.cool/2017/03/elections"
+    },
+    {
+      "id": "redrafted",
+      "title": "Twenty Years of the NBA Redrafted",
+      "description": "Using career stats to prove the best/worst NBA draft picks, ever.",
+      "url": "https://pudding.cool/2017/03/redraft"
+    },
+    {
+      "id": "make-it-stop",
+      "title": "Make it stop.",
+      "description": "Editorial on gun violence since the assault weapons ban expired in 2004.",
+      "url": "https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
+    },
+    {
+      "id": "started-from-the-bottom",
+      "title": "Started from the bottom",
+      "description": "The various paths NBA franchises have taken to get from the bottom to the top of league.",
+      "url": "https://russellgoldenberg.github.io/started-from-the-bottom/"
+    },
+    {
+      "id": "arresting-words",
+      "title": "Arresting words",
+      "description": "A look what people say when they get arrested in Boston.",
+      "url": "https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
+    },
+    {
+      "id": "political-analysis",
+      "title": "A TV viewer’s guide to campaign ads",
+      "description": "A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.",
+      "url": "https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
+    },
+    {
+      "id": "clash-emails",
+      "title": "Clash in the name of care: The e-mails",
+      "description": "Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.",
+      "url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
+    },
+    {
+      "id": "clash",
+      "title": "Clash in the name of care",
+      "description": "A Spotlight investigation about concurrent surgery practices at MGH.",
+      "url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
+    },
+    {
+      "id": "challah",
+      "title": "The staff of life and love",
+      "description": "A multimedia story about a 90 year-old man who makes challah for his sons every week.",
+      "url": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
+    },
+    {
+      "id": "myanmar",
+      "title": "Journey to Myanmar",
+      "description": "A visual travel essay combining photo, video, and audio explores the regions of Myanmar.",
+      "url": "http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
+    },
+    {
+      "id": "hollow",
+      "title": "Hollow",
+      "description": "An interactive documentary exploring the decline of rural America.",
+      "url": "http://hollowdocumentary.com"
+    },
+    {
+      "id": "goodlucksoup",
+      "title": "Good luck soup",
+      "description": "An interactive documentary about life before, during, and after Japanese internment camps.",
+      "url": "http://goodlucksoup.com"
+    }
+  ],
+  "openSource": [
+    {
+      "id": "responsive-table-generator",
+      "title": "Responsive table generator",
+      "description": "HTML/CSS only responsive table generator.",
+      "url": "https://russellgoldenberg.github.io/responsive-table-generator"
+    },
+    {
+      "id": "enter-view",
+      "title": "enter-view.js",
+      "description": "Dependency-free JavaScript library to detect when element enters into view.",
+      "url": "https://russellgoldenberg.github.io/enter=view"
+    },
+    {
+      "id": "skimmer",
+      "title": "skimmer.js",
+      "description": "Dependency-free JavaScript library to detect when a user is skimming the a page.",
+      "url": "https://russellgoldenberg.github.io/skimmer"
+    },
+    {
+      "id": "flipbook",
+      "title": "flipbook.js",
+      "description": "Scroll-based inline flipbook animation for the internet.",
+      "url": "https://russellgoldenberg.github.io/flipbook.js"
+    },
+    {
+      "id": "nba-shot-zones",
+      "title": "NBA shot zones",
+      "description": "Compute shot zones from x,y coordindates.",
+      "url": "https://github.com/BostonGlobe/nba-shot-zones"
+    },
+    {
+      "id": "geolocation-simulator",
+      "title": "Geolocation simulator",
+      "description": "An HTML5 geolocation simulator for desktops that want to pretend to be mobile.",
+      "url": "https://github.com/russellgoldenberg/geolocation-simulator"
+    }
+  ]
 }
