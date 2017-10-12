@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "superteams",
+      "title": "What is a Superteam in the NBA?",
+      "description": "You define it.",
+      "url": "https://pudding.cool/2017/10/superteams/"
+    },
+    {
       "id": "clinics",
       "title":
         "How far is too far? An analysis of driving times to abortion clinics in the US.",
