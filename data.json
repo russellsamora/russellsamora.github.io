@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "id": "hater",
+      "title": "10 Things Everyone Hates About You",
+      "description":
+        "Exploring over 30 million feelings towards 3,000+ topics.",
+      "url": "https://pudding.cool/2017/12/hater/"
+    },
+    {
       "id": "superteams",
       "title": "What is a Superteam in the NBA?",
       "description": "You define it.",
