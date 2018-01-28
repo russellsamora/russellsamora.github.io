@@ -170,6 +170,13 @@
   ],
   "openSource": [
     {
+      "id": "scrollama",
+      "title": "Scrollama.js",
+      "description":
+        "A modern & lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.",
+      "url": "https://github.com/russellgoldenberg/scrollama"
+    },
+    {
       "id": "responsive-table-generator",
       "title": "Responsive table generator",
       "description": "HTML/CSS only responsive table generator.",
