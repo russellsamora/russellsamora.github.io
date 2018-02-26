@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "stand-up",
+      "title": "The Structure of Stand-Up Comedy",
+      "description": "The genius of Ali Wong’s Netflix special.",
+      "url": "https://pudding.cool/2018/02/stand-up/"
+    },
+    {
       "id": "hater",
       "title": "10 Things Everyone Hates About You",
       "description":
