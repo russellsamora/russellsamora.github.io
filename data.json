@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "id": "birthday",
+      "title": "The Birthday Paradox Experiment",
+      "description":
+        "Your birthday twin is probably reading this right now. Because math.",
+      "url": "https://pudding.cool/2018/04/birthday-paradox/"
+    },
+    {
       "id": "stand-up",
       "title": "The Structure of Stand-Up Comedy",
       "description": "The genius of Ali Wong’s Netflix special.",
