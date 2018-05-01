@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "id": "one-hit-wonders",
+      "title": "One-Hit Wonders in Sports",
+      "description":
+        "The greatest single-season anomalies in the last 30 years.",
+      "url": "https://pudding.cool/2018/04/one-hit-wonders/"
+    },
+    {
       "id": "birthday",
       "title": "The Birthday Paradox Experiment",
       "description":
