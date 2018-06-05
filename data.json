@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "id": "top-plays",
+      "title": "The Most-Viewed NBA Plays in 2017-18",
+      "description":
+        "Warning: this video contains a high dosage of LeBron footage.",
+      "url": "https://pudding.cool/2018/05/nba-top-plays/"
+    },
+    {
       "id": "one-hit-wonders",
       "title": "One-Hit Wonders in Sports",
       "description":
