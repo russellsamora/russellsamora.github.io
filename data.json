@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "id": "wiki-death",
+      "title": "Life After Death on Wikipedia",
+      "description":
+        "What pageviews tell us about how famous people are remembered after they die.",
+      "url": "https://pudding.cool/2018/08/wiki-death/"
+    },
+    {
       "id": "top-plays",
       "title": "The Most-Viewed NBA Plays in 2017-18",
       "description":
