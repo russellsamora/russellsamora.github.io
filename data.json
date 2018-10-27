@@ -179,12 +179,6 @@
       "title": "Hollow",
       "description": "An interactive documentary exploring the decline of rural America.",
       "url": "http://hollowdocumentary.com"
-    },
-    {
-      "id": "goodlucksoup",
-      "title": "Good luck soup",
-      "description": "An interactive documentary about life before, during, and after Japanese internment camps.",
-      "url": "http://goodlucksoup.com"
     }
   ],
   "openSource": [
@@ -213,22 +207,10 @@
       "url": "https://russellgoldenberg.github.io/skimmer"
     },
     {
-      "id": "flipbook",
-      "title": "flipbook.js",
-      "description": "Scroll-based inline flipbook animation for the internet.",
-      "url": "https://russellgoldenberg.github.io/flipbook.js"
-    },
-    {
       "id": "nba-shot-zones",
       "title": "NBA shot zones",
       "description": "Compute shot zones from x,y coordindates.",
       "url": "https://github.com/BostonGlobe/nba-shot-zones"
-    },
-    {
-      "id": "geolocation-simulator",
-      "title": "Geolocation simulator",
-      "description": "An HTML5 geolocation simulator for desktops that want to pretend to be mobile.",
-      "url": "https://github.com/russellgoldenberg/geolocation-simulator"
     }
   ]
 }
