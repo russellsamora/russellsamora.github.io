@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "boy-bands",
+      "title": "Internet Boy Band Database",
+      "description": "Every boy band to chart the Hot 100 since 1980.",
+      "url": "https://pudding.cool/2018/11/boy-bands"
+    },
+    {
       "id": "wiki-breakout",
       "title": "What Does the Path to Fame Look Like?",
       "description": "Tracking the rise in popularity from Cardi B to Carson Wentz.",
