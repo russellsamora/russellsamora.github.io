@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "countries",
+      "title": "The World through the Eyes of the US",
+      "description": "The countries that have preoccupied Americans since 1900.",
+      "url": "https://pudding.cool/2018/12/countries"
+    },
+    {
       "id": "boy-bands",
       "title": "Internet Boy Band Database",
       "description": "Every boy band to chart the Hot 100 since 1980.",
