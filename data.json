@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "gyllenhaal",
+      "title": "The Gyllenhaal Experiment",
+      "description": "The many ways to misspell the hardest names in pop culture.",
+      "url": "https://pudding.cool/2019/02/gyllenhaal"
+    },
+    {
       "id": "countries",
       "title": "The World through the Eyes of the US",
       "description": "The countries that have preoccupied Americans since 1900.",
