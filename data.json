@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "hype",
+      "title": "How many high school stars make it in the NBA?",
+      "description": "Every year the top high school basketball recruits get hyped up. How often do they pan out?",
+      "url": "https://pudding.cool/2019/03/hype/"
+    },
+    {
       "id": "gyllenhaal",
       "title": "The Gyllenhaal Experiment",
       "description": "The many ways to misspell the hardest names in pop culture.",
