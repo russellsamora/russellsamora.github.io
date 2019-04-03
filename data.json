@@ -1,240 +1,252 @@
 {
-  "projects": [
-    {
-      "id": "hype",
-      "title": "How many high school stars make it in the NBA?",
-      "description": "Every year the top high school basketball recruits get hyped up. How often do they pan out?",
-      "url": "https://pudding.cool/2019/03/hype/"
-    },
-    {
-      "id": "gyllenhaal",
-      "title": "The Gyllenhaal Experiment",
-      "description": "The many ways to misspell the hardest names in pop culture.",
-      "url": "https://pudding.cool/2019/02/gyllenhaal"
-    },
-    {
-      "id": "countries",
-      "title": "The World through the Eyes of the US",
-      "description": "The countries that have preoccupied Americans since 1900.",
-      "url": "https://pudding.cool/2018/12/countries"
-    },
-    {
-      "id": "boy-bands",
-      "title": "Internet Boy Band Database",
-      "description": "Every boy band to chart the Hot 100 since 1980.",
-      "url": "https://pudding.cool/2018/11/boy-bands"
-    },
-    {
-      "id": "wiki-breakout",
-      "title": "What Does the Path to Fame Look Like?",
-      "description": "Tracking the rise in popularity from Cardi B to Carson Wentz.",
-      "url": "https://pudding.cool/2018/10/wiki-breakout/"
-    },
-    {
-      "id": "wiki-billboard",
-      "title": "The Celebrity Billboard Project",
-      "description": "Tracking the popularity of cultural figures in 2018.",
-      "url": "https://pudding.cool/2018/09/wiki-billboard/"
-    },
-    {
-      "id": "wiki-death",
-      "title": "Life After Death on Wikipedia",
-      "description": "What pageviews tell us about how famous people are remembered after they die.",
-      "url": "https://pudding.cool/2018/08/wiki-death/"
-    },
-    {
-      "id": "top-plays",
-      "title": "The Most-Viewed NBA Plays in 2017-18",
-      "description": "Warning: this video contains a high dosage of LeBron footage.",
-      "url": "https://pudding.cool/2018/05/nba-top-plays/"
-    },
-    {
-      "id": "one-hit-wonders",
-      "title": "One-Hit Wonders in Sports",
-      "description": "The greatest single-season anomalies in the last 30 years.",
-      "url": "https://pudding.cool/2018/04/one-hit-wonders/"
-    },
-    {
-      "id": "birthday",
-      "title": "The Birthday Paradox Experiment",
-      "description": "Your birthday twin is probably reading this right now. Because math.",
-      "url": "https://pudding.cool/2018/04/birthday-paradox/"
-    },
-    {
-      "id": "stand-up",
-      "title": "The Structure of Stand-Up Comedy",
-      "description": "The genius of Ali Wong’s Netflix special.",
-      "url": "https://pudding.cool/2018/02/stand-up/"
-    },
-    {
-      "id": "hater",
-      "title": "10 Things Everyone Hates About You",
-      "description": "Exploring over 30 million feelings towards 3,000+ topics.",
-      "url": "https://pudding.cool/2017/12/hater/"
-    },
-    {
-      "id": "superteams",
-      "title": "What is a Superteam in the NBA?",
-      "description": "You define it.",
-      "url": "https://pudding.cool/2017/10/superteams/"
-    },
-    {
-      "id": "clinics",
-      "title": "How far is too far? An analysis of driving times to abortion clinics in the US.",
-      "description": "Mapping the cities and places with the worst access.",
-      "url": "https://pudding.cool/2017/09/clinics/"
-    },
-    {
-      "id": "film-direction",
-      "title": "She Giggles, He Gallops",
-      "description": "Analyzing gender tropes in film with screen direction from 2,000 scripts.",
-      "url": "https://pudding.cool/2017/08/screen-direction/"
-    },
-    {
-      "id": "the-office",
-      "title": "‘The Office’ Dialogue in Five Charts",
-      "description": "A breakdown of how every character contributed to the show.",
-      "url": "https://pudding.cool/2017/08/the-office/"
-    },
-    {
-      "id": "cetaceans",
-      "title": "Free Willy and Flipper by the Numbers",
-      "description": "The past, present, and future of captive whales and dolphins according to data and pop culture.",
-      "url": "https://pudding.cool/2017/07/cetaceans/"
-    },
-    {
-      "id": "atlantic",
-      "title": "The Platinum Patients",
-      "description": "Each year, 1 in every 20 Americans racks up just as much in medical bills as the other 19 combined.",
-      "url": "https://www.theatlantic.com/theplatinumpatients/"
-    },
-    {
-      "id": "beer",
-      "title": "What City is the Microbrew Capital of the US?",
-      "description": "Using beer review data to rank the best cities in the country.",
-      "url": "https://pudding.cool/2017/04/beer/"
-    },
-    {
-      "id": "westbrook",
-      "title": "How Russell Westbrook can Average a Triple-Double",
-      "description": "As of March 8, Russell Westbrook is averaging a triple-double for the entire season.",
-      "url": "https://pudding.cool/2017/03/westbrook/"
-    },
-    {
-      "id": "oscars",
-      "title": "Mapping America’s Taste in Oscar Films",
-      "description": "Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.",
-      "url": "https://googletrends.github.io/google_oscars/"
-    },
-    {
-      "id": "two-minute-report",
-      "title": "NBA Last Two Minute Report",
-      "description": "An on-going project that reviews officiating from the NBA Last Two Minute Report.",
-      "url": "https://pudding.cool/2017/02/two-minute-report/"
-    },
-    {
-      "id": "making-it-big",
-      "title": "The Unlikely Odds of Making it Big",
-      "description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
-      "url": "https://pudding.cool/2017/01/making-it-big/"
-    },
-    {
-      "id": "elections",
-      "title": "How News Media Covers Trump & Clinton",
-      "description": "Analyzing 12,147 images of the candidates.",
-      "url": "https://pudding.cool/2017/03/elections"
-    },
-    {
-      "id": "redrafted",
-      "title": "Twenty Years of the NBA Redrafted",
-      "description": "Using career stats to prove the best/worst NBA draft picks, ever.",
-      "url": "https://pudding.cool/2017/03/redraft"
-    },
-    {
-      "id": "make-it-stop",
-      "title": "Make it stop.",
-      "description": "Editorial on gun violence since the assault weapons ban expired in 2004.",
-      "url": "https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
-    },
-    {
-      "id": "started-from-the-bottom",
-      "title": "Started from the bottom",
-      "description": "The various paths NBA franchises have taken to get from the bottom to the top of league.",
-      "url": "https://russellgoldenberg.github.io/started-from-the-bottom/"
-    },
-    {
-      "id": "arresting-words",
-      "title": "Arresting words",
-      "description": "A look what people say when they get arrested in Boston.",
-      "url": "https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
-    },
-    {
-      "id": "political-analysis",
-      "title": "A TV viewer’s guide to campaign ads",
-      "description": "A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.",
-      "url": "https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
-    },
-    {
-      "id": "clash-emails",
-      "title": "Clash in the name of care: The e-mails",
-      "description": "Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.",
-      "url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
-    },
-    {
-      "id": "clash",
-      "title": "Clash in the name of care",
-      "description": "A Spotlight investigation about concurrent surgery practices at MGH.",
-      "url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
-    },
-    {
-      "id": "challah",
-      "title": "The staff of life and love",
-      "description": "A multimedia story about a 90 year-old man who makes challah for his sons every week.",
-      "url": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
-    },
-    {
-      "id": "myanmar",
-      "title": "Journey to Myanmar",
-      "description": "A visual travel essay combining photo, video, and audio explores the regions of Myanmar.",
-      "url": "http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
-    },
-    {
-      "id": "hollow",
-      "title": "Hollow",
-      "description": "An interactive documentary exploring the decline of rural America.",
-      "url": "http://hollowdocumentary.com"
-    }
-  ],
-  "openSource": [
-    {
-      "id": "scrollama",
-      "title": "Scrollama.js",
-      "description": "A modern & lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.",
-      "url": "https://github.com/russellgoldenberg/scrollama"
-    },
-    {
-      "id": "responsive-table-generator",
-      "title": "Responsive table generator",
-      "description": "HTML/CSS only responsive table generator.",
-      "url": "https://russellgoldenberg.github.io/responsive-table-generator"
-    },
-    {
-      "id": "enter-view",
-      "title": "enter-view.js",
-      "description": "Dependency-free JavaScript library to detect when element enters into view.",
-      "url": "https://russellgoldenberg.github.io/enter-view"
-    },
-    {
-      "id": "skimmer",
-      "title": "skimmer.js",
-      "description": "Dependency-free JavaScript library to detect when a user is skimming the a page.",
-      "url": "https://russellgoldenberg.github.io/skimmer"
-    },
-    {
-      "id": "nba-shot-zones",
-      "title": "NBA shot zones",
-      "description": "Compute shot zones from x,y coordindates.",
-      "url": "https://github.com/BostonGlobe/nba-shot-zones"
-    }
-  ]
+	"projects": [
+		{
+			"id": "votes-for-women",
+			"title": "Women’s Issues Within Political Party Platforms",
+			"description": "Every four years political parties document their positions in written platforms. How often do women’s issues appear in the text?",
+			"url": "https://pudding.cool/projects/votes-for-women"
+		},
+		{
+			"id": "nba-spell-jam",
+			"title": "NBA Spell Jam",
+			"description": "A spelling bee for the hardest names in the NBA.",
+			"url": "https://pudding.cool/2019/03/nba-spelling/"
+		},
+		{
+			"id": "hype",
+			"title": "How many high school stars make it in the NBA?",
+			"description": "Every year the top high school basketball recruits get hyped up. How often do they pan out?",
+			"url": "https://pudding.cool/2019/03/hype/"
+		},
+		{
+			"id": "gyllenhaal",
+			"title": "The Gyllenhaal Experiment",
+			"description": "The many ways to misspell the hardest names in pop culture.",
+			"url": "https://pudding.cool/2019/02/gyllenhaal"
+		},
+		{
+			"id": "countries",
+			"title": "The World through the Eyes of the US",
+			"description": "The countries that have preoccupied Americans since 1900.",
+			"url": "https://pudding.cool/2018/12/countries"
+		},
+		{
+			"id": "boy-bands",
+			"title": "Internet Boy Band Database",
+			"description": "Every boy band to chart the Hot 100 since 1980.",
+			"url": "https://pudding.cool/2018/11/boy-bands"
+		},
+		{
+			"id": "wiki-breakout",
+			"title": "What Does the Path to Fame Look Like?",
+			"description": "Tracking the rise in popularity from Cardi B to Carson Wentz.",
+			"url": "https://pudding.cool/2018/10/wiki-breakout/"
+		},
+		{
+			"id": "wiki-billboard",
+			"title": "The Celebrity Billboard Project",
+			"description": "Tracking the popularity of cultural figures in 2018.",
+			"url": "https://pudding.cool/2018/09/wiki-billboard/"
+		},
+		{
+			"id": "wiki-death",
+			"title": "Life After Death on Wikipedia",
+			"description": "What pageviews tell us about how famous people are remembered after they die.",
+			"url": "https://pudding.cool/2018/08/wiki-death/"
+		},
+		{
+			"id": "top-plays",
+			"title": "The Most-Viewed NBA Plays in 2017-18",
+			"description": "Warning: this video contains a high dosage of LeBron footage.",
+			"url": "https://pudding.cool/2018/05/nba-top-plays/"
+		},
+		{
+			"id": "one-hit-wonders",
+			"title": "One-Hit Wonders in Sports",
+			"description": "The greatest single-season anomalies in the last 30 years.",
+			"url": "https://pudding.cool/2018/04/one-hit-wonders/"
+		},
+		{
+			"id": "birthday",
+			"title": "The Birthday Paradox Experiment",
+			"description": "Your birthday twin is probably reading this right now. Because math.",
+			"url": "https://pudding.cool/2018/04/birthday-paradox/"
+		},
+		{
+			"id": "stand-up",
+			"title": "The Structure of Stand-Up Comedy",
+			"description": "The genius of Ali Wong’s Netflix special.",
+			"url": "https://pudding.cool/2018/02/stand-up/"
+		},
+		{
+			"id": "hater",
+			"title": "10 Things Everyone Hates About You",
+			"description": "Exploring over 30 million feelings towards 3,000+ topics.",
+			"url": "https://pudding.cool/2017/12/hater/"
+		},
+		{
+			"id": "superteams",
+			"title": "What is a Superteam in the NBA?",
+			"description": "You define it.",
+			"url": "https://pudding.cool/2017/10/superteams/"
+		},
+		{
+			"id": "clinics",
+			"title": "How far is too far? An analysis of driving times to abortion clinics in the US.",
+			"description": "Mapping the cities and places with the worst access.",
+			"url": "https://pudding.cool/2017/09/clinics/"
+		},
+		{
+			"id": "film-direction",
+			"title": "She Giggles, He Gallops",
+			"description": "Analyzing gender tropes in film with screen direction from 2,000 scripts.",
+			"url": "https://pudding.cool/2017/08/screen-direction/"
+		},
+		{
+			"id": "the-office",
+			"title": "‘The Office’ Dialogue in Five Charts",
+			"description": "A breakdown of how every character contributed to the show.",
+			"url": "https://pudding.cool/2017/08/the-office/"
+		},
+		{
+			"id": "cetaceans",
+			"title": "Free Willy and Flipper by the Numbers",
+			"description": "The past, present, and future of captive whales and dolphins according to data and pop culture.",
+			"url": "https://pudding.cool/2017/07/cetaceans/"
+		},
+		{
+			"id": "atlantic",
+			"title": "The Platinum Patients",
+			"description": "Each year, 1 in every 20 Americans racks up just as much in medical bills as the other 19 combined.",
+			"url": "https://www.theatlantic.com/theplatinumpatients/"
+		},
+		{
+			"id": "beer",
+			"title": "What City is the Microbrew Capital of the US?",
+			"description": "Using beer review data to rank the best cities in the country.",
+			"url": "https://pudding.cool/2017/04/beer/"
+		},
+		{
+			"id": "westbrook",
+			"title": "How Russell Westbrook can Average a Triple-Double",
+			"description": "As of March 8, Russell Westbrook is averaging a triple-double for the entire season.",
+			"url": "https://pudding.cool/2017/03/westbrook/"
+		},
+		{
+			"id": "oscars",
+			"title": "Mapping America’s Taste in Oscar Films",
+			"description": "Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.",
+			"url": "https://googletrends.github.io/google_oscars/"
+		},
+		{
+			"id": "two-minute-report",
+			"title": "NBA Last Two Minute Report",
+			"description": "An on-going project that reviews officiating from the NBA Last Two Minute Report.",
+			"url": "https://pudding.cool/2017/02/two-minute-report/"
+		},
+		{
+			"id": "making-it-big",
+			"title": "The Unlikely Odds of Making it Big",
+			"description": "What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.",
+			"url": "https://pudding.cool/2017/01/making-it-big/"
+		},
+		{
+			"id": "elections",
+			"title": "How News Media Covers Trump & Clinton",
+			"description": "Analyzing 12,147 images of the candidates.",
+			"url": "https://pudding.cool/2017/03/elections"
+		},
+		{
+			"id": "redrafted",
+			"title": "Twenty Years of the NBA Redrafted",
+			"description": "Using career stats to prove the best/worst NBA draft picks, ever.",
+			"url": "https://pudding.cool/2017/03/redraft"
+		},
+		{
+			"id": "make-it-stop",
+			"title": "Make it stop.",
+			"description": "Editorial on gun violence since the assault weapons ban expired in 2004.",
+			"url": "https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
+		},
+		{
+			"id": "started-from-the-bottom",
+			"title": "Started from the bottom",
+			"description": "The various paths NBA franchises have taken to get from the bottom to the top of league.",
+			"url": "https://russellgoldenberg.github.io/started-from-the-bottom/"
+		},
+		{
+			"id": "arresting-words",
+			"title": "Arresting words",
+			"description": "A look what people say when they get arrested in Boston.",
+			"url": "https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
+		},
+		{
+			"id": "political-analysis",
+			"title": "A TV viewer’s guide to campaign ads",
+			"description": "A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.",
+			"url": "https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
+		},
+		{
+			"id": "clash-emails",
+			"title": "Clash in the name of care: The e-mails",
+			"description": "Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.",
+			"url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
+		},
+		{
+			"id": "clash",
+			"title": "Clash in the name of care",
+			"description": "A Spotlight investigation about concurrent surgery practices at MGH.",
+			"url": "https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
+		},
+		{
+			"id": "challah",
+			"title": "The staff of life and love",
+			"description": "A multimedia story about a 90 year-old man who makes challah for his sons every week.",
+			"url": "https://apps.bostonglobe.com/graphics/2015/06/challah/"
+		},
+		{
+			"id": "myanmar",
+			"title": "Journey to Myanmar",
+			"description": "A visual travel essay combining photo, video, and audio explores the regions of Myanmar.",
+			"url": "http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
+		},
+		{
+			"id": "hollow",
+			"title": "Hollow",
+			"description": "An interactive documentary exploring the decline of rural America.",
+			"url": "http://hollowdocumentary.com"
+		}
+	],
+	"openSource": [
+		{
+			"id": "scrollama",
+			"title": "Scrollama.js",
+			"description": "A modern & lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.",
+			"url": "https://github.com/russellgoldenberg/scrollama"
+		},
+		{
+			"id": "responsive-table-generator",
+			"title": "Responsive table generator",
+			"description": "HTML/CSS only responsive table generator.",
+			"url": "https://russellgoldenberg.github.io/responsive-table-generator"
+		},
+		{
+			"id": "enter-view",
+			"title": "enter-view.js",
+			"description": "Dependency-free JavaScript library to detect when element enters into view.",
+			"url": "https://russellgoldenberg.github.io/enter-view"
+		},
+		{
+			"id": "skimmer",
+			"title": "skimmer.js",
+			"description": "Dependency-free JavaScript library to detect when a user is skimming the a page.",
+			"url": "https://russellgoldenberg.github.io/skimmer"
+		},
+		{
+			"id": "nba-shot-zones",
+			"title": "NBA shot zones",
+			"description": "Compute shot zones from x,y coordindates.",
+			"url": "https://github.com/BostonGlobe/nba-shot-zones"
+		}
+	]
 }
