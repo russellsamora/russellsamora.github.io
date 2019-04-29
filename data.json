@@ -237,6 +237,12 @@
 			"url": "https://russellgoldenberg.github.io/enter-view"
 		},
 		{
+			"id": "render-d3-video",
+			"title": "render-d3-video",
+			"description": "A CLI tool to generate videos from locally running server using d3 to override time.",
+			"url": "https://github.com/russellgoldenberg/render-d3-video"
+		},
+		{
 			"id": "skimmer",
 			"title": "skimmer.js",
 			"description": "Dependency-free JavaScript library to detect when a user is skimming the a page.",
