@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "three-seconds",
+			"title": "The NBA Has a Defensive Three Seconds Problem",
+			"description": "The one foul that refs love to ignore.",
+			"url": "https://pudding.cool/2019/05/three-seconds"
+		},
+		{
 			"id": "votes-for-women",
 			"title": "Women’s Issues Within Political Party Platforms",
 			"description": "Every four years political parties document their positions in written platforms. How often do women’s issues appear in the text?",
