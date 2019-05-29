@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "people-map",
+			"title": "A People Map of the US",
+			"description": "Where city names are replaced by their most Wikipedia’ed resident.",
+			"url": "https://pudding.cool/2019/05/people-map"
+		},
+		{
 			"id": "three-seconds",
 			"title": "The NBA Has a Defensive Three Seconds Problem",
 			"description": "The one foul that refs love to ignore.",
