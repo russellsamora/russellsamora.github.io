@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "people-map-uk",
+			"title": "A People Map of the UK",
+			"description": "Where city names are replaced by their most Wikipedia’ed resident.",
+			"url": "https://pudding.cool/2019/06/people-map-uk"
+		},
+		{
 			"id": "people-map",
 			"title": "A People Map of the US",
 			"description": "Where city names are replaced by their most Wikipedia’ed resident.",
