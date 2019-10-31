@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "laugh",
+			"title": "Laughing OnLine",
+			"description": "Exploring the usage, evolution, and perception of digital laughter.",
+			"url": "https://pudding.cool/2019/10/laugh"
+		},
+		{
 			"id": "summer-reading",
 			"title": "Hipster Summer Reading List 2019",
 			"description": "An artisanal guide to obscure books based on 100 million checkout records.",
