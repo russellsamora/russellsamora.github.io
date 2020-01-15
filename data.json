@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "apology",
+			"title": "The Aftermath of a YouTube Apology",
+			"description": "Quantifying the lasting impact of a YouTube controversy.",
+			"url": "https://pudding.cool/2020/01/apology"
+		},
+		{
 			"id": "laugh",
 			"title": "Laughing OnLine",
 			"description": "Exploring the usage, evolution, and perception of digital laughter.",
