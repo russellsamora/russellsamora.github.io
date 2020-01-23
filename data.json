@@ -261,22 +261,28 @@
 			"url": "https://github.com/russellgoldenberg/scrollama"
 		},
 		{
-			"id": "responsive-table-generator",
-			"title": "Responsive table generator",
-			"description": "HTML/CSS only responsive table generator.",
-			"url": "https://russellgoldenberg.github.io/responsive-table-generator"
-		},
-		{
 			"id": "enter-view",
 			"title": "enter-view.js",
 			"description": "Dependency-free JavaScript library to detect when element enters into view.",
 			"url": "https://russellgoldenberg.github.io/enter-view"
 		},
 		{
+			"id": "data-s3",
+			"title": "Data S3",
+			"description": "Simple interface to deal with data on s3 built on top of the Node AWS SDK.",
+			"url": "https://russellgoldenberg.github.io/data-s3"
+		},
+		{
 			"id": "render-d3-video",
 			"title": "render-d3-video",
 			"description": "A CLI tool to generate videos from locally running server using d3 to override time.",
 			"url": "https://github.com/russellgoldenberg/render-d3-video"
+		},
+		{
+			"id": "responsive-table-generator",
+			"title": "Responsive table generator",
+			"description": "HTML/CSS only responsive table generator.",
+			"url": "https://russellgoldenberg.github.io/responsive-table-generator"
 		},
 		{
 			"id": "skimmer",
