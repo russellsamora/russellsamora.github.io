@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "infinite",
+      "title": "The Infinite Monkey Theorem Experiment",
+      "description": "What happens when you combine music, Joe Rogan, and probability?",
+      "url": "https://pudding.cool/2020/04/infinite"
+    },
+    {
       "id": "authors",
       "title": "Do Authors Write Where They Know?",
       "description": "Examining how far authors set their books from where they’ve lived.",
