@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "id": "wrestling",
+      "title": "An Illustrated Guide to Masked Wrestlers",
+      "description": "Stories, facts, and pixel art drawings of hundreds of masked wrestlers.",
+      "url": "https://pudding.cool/2020/05/wrestling"
+    },
+    {
       "id": "infinite",
       "title": "The Infinite Monkey Theorem Experiment",
       "description": "What happens when you combine music, Joe Rogan, and probability?",
