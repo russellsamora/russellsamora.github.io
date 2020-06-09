@@ -1,641 +1,1081 @@
-<!doctype html>
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'>
-		<title>Russell Goldenberg</title>
-		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-		<meta name='description' content='Russell Goldenberg portfolio of work'>
-		<meta name='author' content='Russell Goldenberg'>
-		<meta name='news_keywords' content='visual journalist, interactive developer, data journalism, creative coder, javascript, programming, html5, processing, canvas, d3, data visualization, node, boston, cambridge, russell, goldenberg'>
-		<style>
-			/* roboto-300 - latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'),
-       url('fonts/roboto-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* roboto-700 - latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'),
-       url('fonts/roboto-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/roboto-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* Reset */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-* {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-/* Style */
-body {
-	background: #fff;
-	color: #454545;
-	font-size: 17px;
-	line-height: 1.4;
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	-webkit-font-smoothing: antialiased;
-}
-
-p { 
-	margin-bottom: 1em;
-}
-
-em { font-style: italic; }
-strong { font-weight: bold; }
-small { font-size: 80%; }
-
-img {
-	display: block;
-	width: 100%;
-}
-
-a, a:visited {
-	font-weight: 700;
-	text-decoration: none;
-	color: #181818;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #181818;
-}
-
-
-
-.intro {
-	max-width: 480px;
-}
-
-.intro-hed {
-	font-size: 1.35em;
-	margin-bottom: 1em;
-}
-
-.container {
-	width: 100%;
-	padding: 1em;
-	margin: 0 auto;
-}
-
-.projects {
-	height: 100%;
-	overflow: hidden;
-	max-width: 1620px;
-}
-
-.project {
-	padding: 1em 0;
-}
-
-.project__description {
-	margin-top: 0.5em;
-}
-
-footer {
-	margin-top: 4em;
-}
-
-footer p {
-	text-align: center;
-}
-
-@media only screen and (min-width: 540px) {
-	.intro {
-		padding: 1em;
-	}
-	.project {
-		float: left;
-		width: 50%;
-		padding: 1em;
-	}
-	.project:nth-child(2n + 1) {
-		clear: both;
-	}
-	.pad {
-		padding: 0 1em;
-	}
-}
-
-@media only screen and (min-width: 960px) {
-	.project {
-		width: 33.3%;
-	}
-	.project:nth-child(2n + 1) {
-		clear: none;
-	}
-	.project:nth-child(3n + 1) {
-		clear: both;
-	}
-}
-
-.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-		</style>
-	</head>
-	<body>
-		<div class='container'>
-			<div class='intro'>
-				<h1 class='intro-hed'>
-					I’m <a href='http://russellgoldenberg.com'>Russell Goldenberg</a>. I create data visualizations, interactive graphics, and documentaries for the web.
-				</h1>
-				<p class='intro-dek'>
-					Here are some of my favorite projects I have worked on over the past few years at The Pudding, The Boston Globe, and as a freelancer.
-				</p>
-			</div>
-			<div class='projects'>
-				
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2020/05/wrestling'><img src='img/wrestling.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2020/05/wrestling'>An Illustrated Guide to Masked Wrestlers</a> Stories, facts, and pixel art drawings of hundreds of masked wrestlers.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2020/04/infinite'><img src='img/infinite.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2020/04/infinite'>The Infinite Monkey Theorem Experiment</a> What happens when you combine music, Joe Rogan, and probability?</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2020/02/authors'><img src='img/authors.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2020/02/authors'>Do Authors Write Where They Know?</a> Examining how far authors set their books from where they’ve lived.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2020/01/apology'><img src='img/apology.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2020/01/apology'>The Aftermath of a YouTube Apology</a> Quantifying the lasting impact of a YouTube controversy.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/10/laugh'><img src='img/laugh.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/10/laugh'>Laughing OnLine</a> Exploring the usage, evolution, and perception of digital laughter.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/06/summer-reading'><img src='img/summer-reading.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/06/summer-reading'>Hipster Summer Reading List 2019</a> An artisanal guide to obscure books based on 100 million checkout records.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/06/people-map-uk'><img src='img/people-map-uk.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/06/people-map-uk'>A People Map of the UK</a> Where city names are replaced by their most Wikipedia’ed resident.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/05/people-map'><img src='img/people-map.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/05/people-map'>A People Map of the US</a> Where city names are replaced by their most Wikipedia’ed resident.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/05/three-seconds'><img src='img/three-seconds.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/05/three-seconds'>The NBA Has a Defensive Three Seconds Problem</a> The one foul that refs love to ignore.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/projects/votes-for-women'><img src='img/votes-for-women.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/projects/votes-for-women'>Women’s Issues Within Political Party Platforms</a> Every four years political parties document their positions in written platforms. How often do women’s issues appear in the text?</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/03/nba-spelling/'><img src='img/nba-spell-jam.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/03/nba-spelling/'>NBA Spell Jam</a> A spelling bee for the hardest names in the NBA.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/03/hype/'><img src='img/hype.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/03/hype/'>How many high school stars make it in the NBA?</a> Every year the top high school basketball recruits get hyped up. How often do they pan out?</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2019/02/gyllenhaal'><img src='img/gyllenhaal.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2019/02/gyllenhaal'>The Gyllenhaal Experiment</a> The many ways to misspell the hardest names in pop culture.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/12/countries'><img src='img/countries.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/12/countries'>The World through the Eyes of the US</a> The countries that have preoccupied Americans since 1900.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/11/boy-bands'><img src='img/boy-bands.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/11/boy-bands'>Internet Boy Band Database</a> Every boy band to chart the Hot 100 since 1980.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/10/wiki-breakout/'><img src='img/wiki-breakout.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/10/wiki-breakout/'>What Does the Path to Fame Look Like?</a> Tracking the rise in popularity from Cardi B to Carson Wentz.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/09/wiki-billboard/'><img src='img/wiki-billboard.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/09/wiki-billboard/'>The Celebrity Billboard Project</a> Tracking the popularity of cultural figures in 2018.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/08/wiki-death/'><img src='img/wiki-death.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/08/wiki-death/'>Life After Death on Wikipedia</a> What pageviews tell us about how famous people are remembered after they die.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/05/nba-top-plays/'><img src='img/top-plays.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/05/nba-top-plays/'>The Most-Viewed NBA Plays in 2017-18</a> Warning: this video contains a high dosage of LeBron footage.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/04/one-hit-wonders/'><img src='img/one-hit-wonders.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/04/one-hit-wonders/'>One-Hit Wonders in Sports</a> The greatest single-season anomalies in the last 30 years.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/04/birthday-paradox/'><img src='img/birthday.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/04/birthday-paradox/'>The Birthday Paradox Experiment</a> Your birthday twin is probably reading this right now. Because math.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2018/02/stand-up/'><img src='img/stand-up.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2018/02/stand-up/'>The Structure of Stand-Up Comedy</a> The genius of Ali Wong’s Netflix special.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/12/hater/'><img src='img/hater.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/12/hater/'>10 Things Everyone Hates About You</a> Exploring over 30 million feelings towards 3,000+ topics.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/10/superteams/'><img src='img/superteams.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/10/superteams/'>What is a Superteam in the NBA?</a> You define it.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/09/clinics/'><img src='img/clinics.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/09/clinics/'>How far is too far? An analysis of driving times to abortion clinics in the US.</a> Mapping the cities and places with the worst access.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/08/screen-direction/'><img src='img/film-direction.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/08/screen-direction/'>She Giggles, He Gallops</a> Analyzing gender tropes in film with screen direction from 2,000 scripts.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/08/the-office/'><img src='img/the-office.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/08/the-office/'>‘The Office’ Dialogue in Five Charts</a> A breakdown of how every character contributed to the show.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/07/cetaceans/'><img src='img/cetaceans.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/07/cetaceans/'>Free Willy and Flipper by the Numbers</a> The past, present, and future of captive whales and dolphins according to data and pop culture.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://www.theatlantic.com/theplatinumpatients/'><img src='img/atlantic.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://www.theatlantic.com/theplatinumpatients/'>The Platinum Patients</a> Each year, 1 in every 20 Americans racks up just as much in medical bills as the other 19 combined.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/04/beer/'><img src='img/beer.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/04/beer/'>What City is the Microbrew Capital of the US?</a> Using beer review data to rank the best cities in the country.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/03/westbrook/'><img src='img/westbrook.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/03/westbrook/'>How Russell Westbrook can Average a Triple-Double</a> As of March 8, Russell Westbrook is averaging a triple-double for the entire season.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://googletrends.github.io/google_oscars/'><img src='img/oscars.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://googletrends.github.io/google_oscars/'>Mapping America’s Taste in Oscar Films</a> Where this year's Oscar-nominated movies are most popular, across 3,000 U.S. counties.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/02/two-minute-report/'><img src='img/two-minute-report.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/02/two-minute-report/'>NBA Last Two Minute Report</a> An on-going project that reviews officiating from the NBA Last Two Minute Report.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/01/making-it-big/'><img src='img/making-it-big.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/01/making-it-big/'>The Unlikely Odds of Making it Big</a> What three years and 75,000 shows in New York tell us about the chance your favorite band will succeed.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/03/elections'><img src='img/elections.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/03/elections'>How News Media Covers Trump & Clinton</a> Analyzing 12,147 images of the candidates.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://pudding.cool/2017/03/redraft'><img src='img/redrafted.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://pudding.cool/2017/03/redraft'>Twenty Years of the NBA Redrafted</a> Using career stats to prove the best/worst NBA draft picks, ever.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/'><img src='img/make-it-stop.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/'>Make it stop.</a> Editorial on gun violence since the assault weapons ban expired in 2004.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://russellgoldenberg.github.io/started-from-the-bottom/'><img src='img/started-from-the-bottom.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://russellgoldenberg.github.io/started-from-the-bottom/'>Started from the bottom</a> The various paths NBA franchises have taken to get from the bottom to the top of league.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://apps.bostonglobe.com/graphics/2016/04/arresting-words/'><img src='img/arresting-words.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://apps.bostonglobe.com/graphics/2016/04/arresting-words/'>Arresting words</a> A look what people say when they get arrested in Boston.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://apps.bostonglobe.com/graphics/2016/02/political-ads/'><img src='img/political-analysis.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://apps.bostonglobe.com/graphics/2016/02/political-ads/'>A TV viewer’s guide to campaign ads</a> A data analysis and visualization of every single campaign spot leading up to the New Hampshire Primaries.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails'><img src='img/clash-emails.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails'>Clash in the name of care: The e-mails</a> Graphic of e-mail correspondences between key players at MGH regarding concurrent surgeries.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story'><img src='img/clash.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story'>Clash in the name of care</a> A Spotlight investigation about concurrent surgery practices at MGH.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='https://apps.bostonglobe.com/graphics/2015/06/challah/'><img src='img/challah.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='https://apps.bostonglobe.com/graphics/2015/06/challah/'>The staff of life and love</a> A multimedia story about a 90 year-old man who makes challah for his sons every week.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html'><img src='img/myanmar.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html'>Journey to Myanmar</a> A visual travel essay combining photo, video, and audio explores the regions of Myanmar.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='http://hollowdocumentary.com'><img src='img/hollow.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='http://hollowdocumentary.com'>Hollow</a> An interactive documentary exploring the decline of rural America.</p>
-			
-		</div>
-	
-			</div>
-			<p class='intro-dek pad'>
-				A collection of Open Source libraries and tools I have created.
-			</p>
-			<div class='open-sources pad'>
-				
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://github.com/russellgoldenberg/scrollama'>Scrollama.js</a> A modern & lightweight JavaScript library for scrollytelling using IntersectionObserver in favor of scroll events.</p>
-		</div>
-	
-
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://russellgoldenberg.github.io/enter-view'>enter-view.js</a> Dependency-free JavaScript library to detect when element enters into view.</p>
-		</div>
-	
-
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://russellgoldenberg.github.io/data-s3'>Data S3</a> Simple interface to deal with data on s3 built on top of the Node AWS SDK.</p>
-		</div>
-	
-
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://github.com/russellgoldenberg/render-d3-video'>render-d3-video</a> A CLI tool to generate videos from locally running server using d3 to override time.</p>
-		</div>
-	
-
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://russellgoldenberg.github.io/responsive-table-generator'>Responsive table generator</a> HTML/CSS only responsive table generator.</p>
-		</div>
-	
-
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://russellgoldenberg.github.io/skimmer'>skimmer.js</a> Dependency-free JavaScript library to detect when a user is skimming the a page.</p>
-		</div>
-	
-
-		<div class='open-source'>
-			<p class='open-source__description'><a href='https://github.com/BostonGlobe/nba-shot-zones'>NBA shot zones</a> Compute shot zones from x,y coordindates.</p>
-		</div>
-	
-			</div>
-			<footer>
-				<p><a href='http://russellgoldenberg.com/'>Some more about me.</a></p>
-			</footer>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Russell Goldenberg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Russell Goldenberg portfolio of work" />
+    <meta name="author" content="Russell Goldenberg" />
+    <meta
+      name="news_keywords"
+      content="visual journalist, interactive developer, data journalism, creative coder, javascript, programming, html5, processing, canvas, d3, data visualization, node, boston, cambridge, russell, goldenberg"
+    />
+    <style>
+      /* roboto-300 - latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Roboto Light"), local("Roboto-Light"),
+          url("fonts/roboto-v15-latin-300.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("fonts/roboto-v15-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+
+      /* roboto-700 - latin */
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Roboto Bold"), local("Roboto-Bold"),
+          url("fonts/roboto-v15-latin-700.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("fonts/roboto-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+
+      /* Reset */
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+
+      body {
+        line-height: 1;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+      }
+
+      blockquote,
+      q {
+        quotes: none;
+      }
+
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+        content: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      * {
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      /* Style */
+      body {
+        background: #fff;
+        color: #454545;
+        font-size: 17px;
+        line-height: 1.4;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      p {
+        margin-bottom: 1em;
+      }
+
+      em {
+        font-style: italic;
+      }
+      strong {
+        font-weight: bold;
+      }
+      small {
+        font-size: 80%;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+      }
+
+      a,
+      a:visited {
+        font-weight: 700;
+        text-decoration: none;
+        color: #181818;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #181818;
+      }
+
+      .intro {
+        max-width: 480px;
+      }
+
+      .intro-hed {
+        font-size: 1.35em;
+        margin-bottom: 1em;
+      }
+
+      .container {
+        width: 100%;
+        padding: 1em;
+        margin: 0 auto;
+      }
+
+      .projects {
+        height: 100%;
+        overflow: hidden;
+        max-width: 1620px;
+      }
+
+      .project {
+        padding: 1em 0;
+      }
+
+      .project__description {
+        margin-top: 0.5em;
+      }
+
+      footer {
+        margin-top: 4em;
+      }
+
+      footer p {
+        text-align: center;
+      }
+
+      @media only screen and (min-width: 540px) {
+        .intro {
+          padding: 1em;
+        }
+        .project {
+          float: left;
+          width: 50%;
+          padding: 1em;
+        }
+        .project:nth-child(2n + 1) {
+          clear: both;
+        }
+        .pad {
+          padding: 0 1em;
+        }
+      }
+
+      @media only screen and (min-width: 960px) {
+        .project {
+          width: 33.3%;
+        }
+        .project:nth-child(2n + 1) {
+          clear: none;
+        }
+        .project:nth-child(3n + 1) {
+          clear: both;
+        }
+      }
+
+      .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+      }
+      .embed-container iframe,
+      .embed-container object,
+      .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1 class="intro-hed">
+          I’m
+          <a href="https://pudding.cool/misc/gif-test">Russell Goldenberg</a>. I
+          create data visualizations, interactive graphics, and documentaries
+          for the web.
+        </h1>
+        <p class="intro-dek">
+          Here are some of my favorite projects I have worked on over the past
+          few years at The Pudding, The Boston Globe, and as a freelancer.
+        </p>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2020/05/wrestling"
+              ><img src="img/wrestling.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2020/05/wrestling"
+              >An Illustrated Guide to Masked Wrestlers</a
+            >
+            Stories, facts, and pixel art drawings of hundreds of masked
+            wrestlers.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2020/04/infinite"
+              ><img src="img/infinite.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2020/04/infinite"
+              >The Infinite Monkey Theorem Experiment</a
+            >
+            What happens when you combine music, Joe Rogan, and probability?
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2020/02/authors"
+              ><img src="img/authors.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2020/02/authors"
+              >Do Authors Write Where They Know?</a
+            >
+            Examining how far authors set their books from where they’ve lived.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2020/01/apology"
+              ><img src="img/apology.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2020/01/apology"
+              >The Aftermath of a YouTube Apology</a
+            >
+            Quantifying the lasting impact of a YouTube controversy.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/10/laugh"
+              ><img src="img/laugh.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/10/laugh">Laughing OnLine</a>
+            Exploring the usage, evolution, and perception of digital laughter.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2019/06/summer-reading"
+              ><img src="img/summer-reading.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/06/summer-reading"
+              >Hipster Summer Reading List 2019</a
+            >
+            An artisanal guide to obscure books based on 100 million checkout
+            records.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/06/people-map-uk"
+              ><img src="img/people-map-uk.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/06/people-map-uk"
+              >A People Map of the UK</a
+            >
+            Where city names are replaced by their most Wikipedia’ed resident.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/05/people-map"
+              ><img src="img/people-map.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/05/people-map"
+              >A People Map of the US</a
+            >
+            Where city names are replaced by their most Wikipedia’ed resident.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/05/three-seconds"
+              ><img src="img/three-seconds.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/05/three-seconds"
+              >The NBA Has a Defensive Three Seconds Problem</a
+            >
+            The one foul that refs love to ignore.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/projects/votes-for-women"
+              ><img src="img/votes-for-women.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/projects/votes-for-women"
+              >Women’s Issues Within Political Party Platforms</a
+            >
+            Every four years political parties document their positions in
+            written platforms. How often do women’s issues appear in the text?
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/03/nba-spelling/"
+              ><img src="img/nba-spell-jam.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/03/nba-spelling/"
+              >NBA Spell Jam</a
+            >
+            A spelling bee for the hardest names in the NBA.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/03/hype/"
+              ><img src="img/hype.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/03/hype/"
+              >How many high school stars make it in the NBA?</a
+            >
+            Every year the top high school basketball recruits get hyped up. How
+            often do they pan out?
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2019/02/gyllenhaal"
+              ><img src="img/gyllenhaal.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2019/02/gyllenhaal"
+              >The Gyllenhaal Experiment</a
+            >
+            The many ways to misspell the hardest names in pop culture.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2018/12/countries"
+              ><img src="img/countries.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/12/countries"
+              >The World through the Eyes of the US</a
+            >
+            The countries that have preoccupied Americans since 1900.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2018/11/boy-bands"
+              ><img src="img/boy-bands.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/11/boy-bands"
+              >Internet Boy Band Database</a
+            >
+            Every boy band to chart the Hot 100 since 1980.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2018/10/wiki-breakout/"
+              ><img src="img/wiki-breakout.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/10/wiki-breakout/"
+              >What Does the Path to Fame Look Like?</a
+            >
+            Tracking the rise in popularity from Cardi B to Carson Wentz.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2018/09/wiki-billboard/"
+              ><img src="img/wiki-billboard.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/09/wiki-billboard/"
+              >The Celebrity Billboard Project</a
+            >
+            Tracking the popularity of cultural figures in 2018.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2018/08/wiki-death/"
+              ><img src="img/wiki-death.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/08/wiki-death/"
+              >Life After Death on Wikipedia</a
+            >
+            What pageviews tell us about how famous people are remembered after
+            they die.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2018/05/nba-top-plays/"
+              ><img src="img/top-plays.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/05/nba-top-plays/"
+              >The Most-Viewed NBA Plays in 2017-18</a
+            >
+            Warning: this video contains a high dosage of LeBron footage.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2018/04/one-hit-wonders/"
+              ><img src="img/one-hit-wonders.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/04/one-hit-wonders/"
+              >One-Hit Wonders in Sports</a
+            >
+            The greatest single-season anomalies in the last 30 years.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2018/04/birthday-paradox/"
+              ><img src="img/birthday.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/04/birthday-paradox/"
+              >The Birthday Paradox Experiment</a
+            >
+            Your birthday twin is probably reading this right now. Because math.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2018/02/stand-up/"
+              ><img src="img/stand-up.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2018/02/stand-up/"
+              >The Structure of Stand-Up Comedy</a
+            >
+            The genius of Ali Wong’s Netflix special.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/12/hater/"
+              ><img src="img/hater.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/12/hater/"
+              >10 Things Everyone Hates About You</a
+            >
+            Exploring over 30 million feelings towards 3,000+ topics.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/10/superteams/"
+              ><img src="img/superteams.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/10/superteams/"
+              >What is a Superteam in the NBA?</a
+            >
+            You define it.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/09/clinics/"
+              ><img src="img/clinics.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/09/clinics/"
+              >How far is too far? An analysis of driving times to abortion
+              clinics in the US.</a
+            >
+            Mapping the cities and places with the worst access.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2017/08/screen-direction/"
+              ><img src="img/film-direction.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/08/screen-direction/"
+              >She Giggles, He Gallops</a
+            >
+            Analyzing gender tropes in film with screen direction from 2,000
+            scripts.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/08/the-office/"
+              ><img src="img/the-office.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/08/the-office/"
+              >‘The Office’ Dialogue in Five Charts</a
+            >
+            A breakdown of how every character contributed to the show.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/07/cetaceans/"
+              ><img src="img/cetaceans.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/07/cetaceans/"
+              >Free Willy and Flipper by the Numbers</a
+            >
+            The past, present, and future of captive whales and dolphins
+            according to data and pop culture.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://www.theatlantic.com/theplatinumpatients/"
+              ><img src="img/atlantic.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://www.theatlantic.com/theplatinumpatients/"
+              >The Platinum Patients</a
+            >
+            Each year, 1 in every 20 Americans racks up just as much in medical
+            bills as the other 19 combined.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/04/beer/"
+              ><img src="img/beer.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/04/beer/"
+              >What City is the Microbrew Capital of the US?</a
+            >
+            Using beer review data to rank the best cities in the country.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/03/westbrook/"
+              ><img src="img/westbrook.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/03/westbrook/"
+              >How Russell Westbrook can Average a Triple-Double</a
+            >
+            As of March 8, Russell Westbrook is averaging a triple-double for
+            the entire season.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://googletrends.github.io/google_oscars/"
+              ><img src="img/oscars.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://googletrends.github.io/google_oscars/"
+              >Mapping America’s Taste in Oscar Films</a
+            >
+            Where this year's Oscar-nominated movies are most popular, across
+            3,000 U.S. counties.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2017/02/two-minute-report/"
+              ><img src="img/two-minute-report.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/02/two-minute-report/"
+              >NBA Last Two Minute Report</a
+            >
+            An on-going project that reviews officiating from the NBA Last Two
+            Minute Report.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://pudding.cool/2017/01/making-it-big/"
+              ><img src="img/making-it-big.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/01/making-it-big/"
+              >The Unlikely Odds of Making it Big</a
+            >
+            What three years and 75,000 shows in New York tell us about the
+            chance your favorite band will succeed.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/03/elections"
+              ><img src="img/elections.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/03/elections"
+              >How News Media Covers Trump & Clinton</a
+            >
+            Analyzing 12,147 images of the candidates.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="https://pudding.cool/2017/03/redraft"
+              ><img src="img/redrafted.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://pudding.cool/2017/03/redraft"
+              >Twenty Years of the NBA Redrafted</a
+            >
+            Using career stats to prove the best/worst NBA draft picks, ever.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
+              ><img src="img/make-it-stop.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="https://apps.bostonglobe.com/graphics/2016/06/make-it-stop/"
+              >Make it stop.</a
+            >
+            Editorial on gun violence since the assault weapons ban expired in
+            2004.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://russellgoldenberg.github.io/started-from-the-bottom/"
+              ><img src="img/started-from-the-bottom.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="https://russellgoldenberg.github.io/started-from-the-bottom/"
+              >Started from the bottom</a
+            >
+            The various paths NBA franchises have taken to get from the bottom
+            to the top of league.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
+              ><img src="img/arresting-words.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="https://apps.bostonglobe.com/graphics/2016/04/arresting-words/"
+              >Arresting words</a
+            >
+            A look what people say when they get arrested in Boston.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
+              ><img src="img/political-analysis.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="https://apps.bostonglobe.com/graphics/2016/02/political-ads/"
+              >A TV viewer’s guide to campaign ads</a
+            >
+            A data analysis and visualization of every single campaign spot
+            leading up to the New Hampshire Primaries.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
+              ><img src="img/clash-emails.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/e-mails"
+              >Clash in the name of care: The e-mails</a
+            >
+            Graphic of e-mail correspondences between key players at MGH
+            regarding concurrent surgeries.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
+              ><img src="img/clash.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="https://apps.bostonglobe.com/spotlight/clash-in-the-name-of-care/story"
+              >Clash in the name of care</a
+            >
+            A Spotlight investigation about concurrent surgery practices at MGH.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="https://apps.bostonglobe.com/graphics/2015/06/challah/"
+              ><img src="img/challah.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="https://apps.bostonglobe.com/graphics/2015/06/challah/"
+              >The staff of life and love</a
+            >
+            A multimedia story about a 90 year-old man who makes challah for his
+            sons every week.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a
+              target="_blank"
+              href="http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
+              ><img src="img/myanmar.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a
+              href="http://apps.bostonglobe.com/graphics/2015/05/myanmar/part-1.html"
+              >Journey to Myanmar</a
+            >
+            A visual travel essay combining photo, video, and audio explores the
+            regions of Myanmar.
+          </p>
+        </div>
+
+        <div class="project">
+          <div class="project__image">
+            <a target="_blank" href="http://hollowdocumentary.com"
+              ><img src="img/hollow.jpg"
+            /></a>
+          </div>
+          <p class="project__description">
+            <a href="http://hollowdocumentary.com">Hollow</a> An interactive
+            documentary exploring the decline of rural America.
+          </p>
+        </div>
+      </div>
+      <p class="intro-dek pad">
+        A collection of Open Source libraries and tools I have created.
+      </p>
+      <div class="open-sources pad">
+        <div class="open-source">
+          <p class="open-source__description">
+            <a href="https://github.com/russellgoldenberg/scrollama"
+              >Scrollama.js</a
+            >
+            A modern & lightweight JavaScript library for scrollytelling using
+            IntersectionObserver in favor of scroll events.
+          </p>
+        </div>
+
+        <div class="open-source">
+          <p class="open-source__description">
+            <a href="https://russellgoldenberg.github.io/enter-view"
+              >enter-view.js</a
+            >
+            Dependency-free JavaScript library to detect when element enters
+            into view.
+          </p>
+        </div>
+
+        <div class="open-source">
+          <p class="open-source__description">
+            <a href="https://russellgoldenberg.github.io/data-s3">Data S3</a>
+            Simple interface to deal with data on s3 built on top of the Node
+            AWS SDK.
+          </p>
+        </div>
+
+        <div class="open-source">
+          <p class="open-source__description">
+            <a href="https://github.com/russellgoldenberg/render-d3-video"
+              >render-d3-video</a
+            >
+            A CLI tool to generate videos from locally running server using d3
+            to override time.
+          </p>
+        </div>
+
+        <div class="open-source">
+          <p class="open-source__description">
+            <a
+              href="https://russellgoldenberg.github.io/responsive-table-generator"
+              >Responsive table generator</a
+            >
+            HTML/CSS only responsive table generator.
+          </p>
+        </div>
+
+        <div class="open-source">
+          <p class="open-source__description">
+            <a href="https://russellgoldenberg.github.io/skimmer">skimmer.js</a>
+            Dependency-free JavaScript library to detect when a user is skimming
+            the a page.
+          </p>
+        </div>
+
+        <div class="open-source">
+          <p class="open-source__description">
+            <a href="https://github.com/BostonGlobe/nba-shot-zones"
+              >NBA shot zones</a
+            >
+            Compute shot zones from x,y coordindates.
+          </p>
+        </div>
+      </div>
+      <footer>
+        <p><a href="http://russellgoldenberg.com/">Some more about me.</a></p>
+      </footer>
+    </div>
+  </body>
 </html>
