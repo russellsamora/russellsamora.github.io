@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "id": "newsletter",
+      "title": "Winning the Internet",
+      "description": "A data-driven newsletter of links in other newsletters.",
+      "url": "https://pudding.cool/projects/newsletter"
+    },
+    {
+      "id": "nationscape",
+      "title": "Where do Americans stand on election issues?",
+      "description": "Explore where voters stand on key issues facing the country.",
+      "url": "https://www.usatoday.com/storytelling/2020-election-voters-nationscape-insights/"
+    },
+    {
       "id": "wrestling",
       "title": "An Illustrated Guide to Masked Wrestlers",
       "description": "Stories, facts, and pixel art drawings of hundreds of masked wrestlers.",
