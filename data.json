@@ -1,5 +1,17 @@
 {
   "projects": [
+		{
+      "id": "puzzles",
+      "title": "Play These Puzzles to Reveal the Racial and Gender Breakdown of Crosswords",
+      "description": "Mini crosswords generated from a data analysis of puzzles from the New York Times, and others.",
+      "url": "https://pudding.cool/2020/11/crossword-puzzles"
+    },
+		{
+      "id": "crossword",
+      "title": "Who’s in the Crossword?",
+      "description": "A look at representation and inclusivity in crossword puzzles.",
+      "url": "https://pudding.cool/2020/11/crossword"
+    },
     {
       "id": "newsletter",
       "title": "Winning the Internet",
