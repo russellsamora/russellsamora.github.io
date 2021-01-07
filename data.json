@@ -1,6 +1,12 @@
 {
   "projects": [
 		{
+      "id": "oreo",
+      "title": "Oreos and the Art of Crossword Puzzle Construction",
+      "description": "A chronicle of a controversial cookie and condiment crossword clue.",
+      "url": "https://pudding.cool/2021/01/oreo"
+    },
+		{
       "id": "puzzles",
       "title": "Play These Puzzles to Reveal the Racial and Gender Breakdown of Crosswords",
       "description": "Mini crosswords generated from a data analysis of puzzles from the New York Times, and others.",
