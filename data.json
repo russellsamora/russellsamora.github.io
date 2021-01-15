@@ -1,6 +1,12 @@
 {
   "projects": [
 		{
+      "id": "cool",
+      "title": "Every time someone says cool in Community",
+      "description": "Watch all 412 cools from Abed, and others.",
+      "url": "https://pudding.cool/2021/01/cool"
+    },
+		{
       "id": "oreo",
       "title": "Oreos and the Art of Crossword Puzzle Construction",
       "description": "A chronicle of a controversial cookie and condiment crossword clue.",
