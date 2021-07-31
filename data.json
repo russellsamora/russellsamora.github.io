@@ -1,6 +1,18 @@
 {
 	"projects": [
 		{
+			"id": "rickrolling",
+			"title": "A Visual History of Rickrolling",
+			"description": "Millions of comments, posts, and links, charted.",
+			"url": "https://pudding.cool/2021/07/rickrolling"
+		},
+		{
+			"id": "caption",
+			"title": "Help a Computer Win the New Yorker Cartoon Caption Contest",
+			"description": "This is a weekly experiment to see if an artificial intelligence program can produce real humor.",
+			"url": "https://pudding.cool/projects/caption-contest"
+		},
+		{
 			"id": "solo",
 			"title": "How many artists overshadow their band after going solo?",
 			"description": "What the data say about Beyoncé, Nick Lachey, and others.",
