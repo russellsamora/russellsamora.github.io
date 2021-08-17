@@ -1,6 +1,12 @@
 {
 	"projects": [
 		{
+			"id": "carry",
+			"title": "Ranking the Biggest NBA Finals Carry Jobs",
+			"description": "It is mostly LeBron James.",
+			"url": "https://pudding.cool/2021/08/nba-carry"
+		},
+		{
 			"id": "rickrolling",
 			"title": "A Visual History of Rickrolling",
 			"description": "Millions of comments, posts, and links, charted.",
