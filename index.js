@@ -1,18 +1,13 @@
 const fs = require('fs')
 const data = JSON.parse(fs.readFileSync('./data.json'))
 
-const videoHTML = video =>
-	video ? `<div class='project__video'><a href='#${id}'>*</a></div>` : ''
 
 const projects = data.projects.map(d => {
 	const { id, title, description, url, video } = d
+	// < img alt = '${id}' src = 'img/${id}.jpg' loading = lazy /></a>
 	return `
 		<div class='project'>
-			<div class='project__image'>
-				<a target='_blank' href='${url}'><img alt='${id}' src='img/${id}.jpg' loading=lazy /></a>
-			</div>
-			<p class='project__description'><a href='${url}'>${title}</a> ${description}</p>
-			${videoHTML(video)}
+			<p><a href='${url}'>${title}</a></p>
 		</div>
 	`
 }).join('\n')
