@@ -39,7 +39,6 @@
 		li {
 			margin-bottom: 0.5em;
 			margin-left: 1em;
-			list-style-type: circle;
 		}
 	</style>
 </head>
