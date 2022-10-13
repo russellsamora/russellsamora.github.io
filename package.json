@@ -1,20 +1,20 @@
 {
-  "name": "russellgoldenberg_github",
-  "version": "1.0.0",
-  "description": "Portfolio",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/russellgoldenberg/russellgoldenberg.github.io.git"
-  },
-  "author": "Russell Goldenberg",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/russellgoldenberg/russellgoldenberg.github.io/issues"
-  },
-  "homepage": "https://github.com/russellgoldenberg/russellgoldenberg.github.io#readme"
+	"name": "russellsamora_github",
+	"version": "1.0.0",
+	"description": "Portfolio",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/russellsamora/russellsamora.github.io.git"
+	},
+	"author": "Russell Samora",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/russellsamora/russellsamora.github.io/issues"
+	},
+	"homepage": "https://github.com/russellsamora/russellsamora.github.io#readme"
 }
